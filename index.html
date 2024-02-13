@@ -5,11 +5,15 @@
         <meta charset="utf-8">
         <meta name='viewport' content='width=device-width, initial-scale=1.0, shrink-to-fit=no'>
         <title>Alin's Portfolio</title>
+        <!-- Favicon -->
+        <link rel="icon" type="image/png" rel="noopener" target="_blank" href="Assets/Pics/Live2DreamFavicon.png">
+        <!-- Bootstrap -->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
             integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
             integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
             crossorigin="anonymous"></script>
+        <!-- CSS link -->
         <link href="css/stylesheet.css" rel="stylesheet">
     </head>
     <body>
@@ -51,7 +55,7 @@
                     </h3>
                 </div>
                 <div class="col-md-6">
-                    <img src="Assets\Pics\cover_photo.png" alt="Alin on the railing">
+                    <img class="curvedImg" src="Assets\Pics\cover_photo.png" alt="Alin on the railing">
                 </div>
             </div>
         </div>
@@ -67,34 +71,34 @@
             </div>
             <div class="row">
                 <div class="col-md-6">
-                    <img src="Assets\Pics\Tx2Day\Tx2Day_Welcome.png" alt="The Tx2Day Welcome Page">
+                    <img class="curvedImg" src="Assets\Pics\Tx2Day\Tx2Day_Welcome.png" alt="The Tx2Day Welcome Page">
                     <h5>Welcome Page</h5>
                 </div>
                 <div class="col-md-6">
-                    <img src="Assets\Pics\Tx2Day\Tx2Day_Sign_In.png" alt="The Tx2Day Sign-in Page">
+                    <img class="curvedImg" src="Assets\Pics\Tx2Day\Tx2Day_Sign_In.png" alt="The Tx2Day Sign-in Page">
                     <h5>Sign In</h5>
                 </div>
             </div>
             <div class="row">
                 <div class="col-md-3">
-                    <img src="Assets\Pics\Tx2Day\Tx2Day_Client_Select.png" alt="The Tx2Day Client Select Page">
+                    <img class="curvedImg" src="Assets\Pics\Tx2Day\Tx2Day_Client_Select.png" alt="The Tx2Day Client Select Page">
                     <h5>Client Selection</h5>
                 </div>
                 <div class="col-md-3">
-                    <img src="Assets\Pics\Tx2Day\Tx2Day_Location_Schedule.png" alt="The Tx2Day Location Select Page">
+                    <img class="curvedImg" src="Assets\Pics\Tx2Day\Tx2Day_Location_Schedule.png" alt="The Tx2Day Location Select Page">
                     <h5>Location Selection</h5>
                 </div>
                 <div class="col-md-3">
-                    <img src="Assets\Pics\Tx2Day\Tx2Day_Visit.png" alt="The Tx2Day Client Visit Page">
+                    <img class="curvedImg" src="Assets\Pics\Tx2Day\Tx2Day_Visit.png" alt="The Tx2Day Client Visit Page">
                     <h5>Client Visit</h5>
                 </div>
                 <div class="col-md-3">
-                    <img src="Assets\Pics\Tx2Day\Tx2Day_Daily_Report.png" alt="The Tx2Day Daily Report Page">
+                    <img class="curvedImg" src="Assets\Pics\Tx2Day\Tx2Day_Daily_Report.png" alt="The Tx2Day Daily Report Page">
                     <h5>Daily Report</h5>
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-8" id="artifactText">
+                <div class="col-12" id="artifactText">
                     <h3>The artifact is about my work on the
                         website / webapp Tx2Day, which is a new
                         way to approach therapy documentation.
@@ -114,7 +118,6 @@
                         into the design while staying away from
                         bland theming.</h3>
                 </div>
-                <div class="col-md-4"></div>
             </div>
         </div>
 
@@ -130,11 +133,13 @@
             <div class="row">
                 <div class="col-12" id="caveGameTrailer">
                     <!-- Trailer Video -->
+                    <video width="100%" height="auto" controls id="video">
+                        <source src="Assets\Video\GIMM270_GameTrailer_GOlson_10-10-23.mp4" type="video/mp4"> 
+                    </video>
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-4"></div>
-                <div class="col-md-8" id="artifactText">
+                <div class="col-12" id="artifactText">
                     <h3>The artifact is about showcasing my first
                         experience delving into game design and
                         showcasing my art and storytelling style.
@@ -157,43 +162,73 @@
                     </h3>
                 </div>
             </div>
-
-            <hr>
-
             <div class="row">
-                <div class="col-12" id="caveGameDevLog">
-                    <!-- Dev Log Video -->
+                <div class="col-12" id="caveGameDevLog video">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/oY0PAvClYtw?si=X8Aw2GpomB_LqTKD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                 </div>
             </div>
             <div class="row">
                 <!-- gifs -->
                 <div class="col-md-3">
-                    <img src="" alt="Cosmo's Idle Animation">
+                    <img src="Assets\Pics\TheCave\_Idle.gif" alt="Cosmo's Idle Animation">
                 </div>
                 <div class="col-md-3">
-                    <img src="" alt="Shadow Walking Animation">
+                    <img src="Assets\Pics\TheCave\Shadow_Idle.gif" alt="Shadow Walking Animation">
                 </div>
                 <div class="col-md-3">
-                    <img src="" alt="Cosmo's Walking Animation">
+                    <img src="Assets\Pics\TheCave\_Walk.gif" alt="Cosmo's Walking Animation">
                 </div>
                 <div class="col-md-3">
-                    <img src="" alt="Shadow Walking Animation">
+                    <img src="Assets\Pics\TheCave\Shadow_Walk.gif" alt="Shadow Walking Animation">
                 </div>
             </div>
             <div class="row">
                 <div class="col-12">
                     <!-- autoscrolling image gallery of screenshots -->
+                    <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                          <div class="carousel-item active" data-bs-interval="15000">
+                            <img src="Assets\Pics\TheCave\theCaveOpenScene.gif" class="d-block w-100" 
+                            alt="The opening GIF of The Cave">
+                          </div>
+                          <div class="carousel-item" data-bs-interval="5000">
+                            <img src="Assets\Pics\TheCave\TheCaveCollisionCode.png" class="d-block w-100" 
+                            alt="The Cave collision code screenshot">
+                          </div>
+                          <div class="carousel-item" data-bs-interval="5000">
+                            <img src="Assets\Pics\TheCave\TheCaveDirectionChangeCode.png" class="d-block w-100" 
+                            alt="The Cave direction change code screenshot">
+                          </div>
+                          <div class="carousel-item" data-bs-interval="5000">
+                            <img src="Assets\Pics\TheCave\TheCavePhysicsCode.png" class="d-block w-100" 
+                            alt="The Cave physics Code screenshot">
+                          </div>
+                          <div class="carousel-item" data-bs-interval="15000">
+                            <img src="Assets\Pics\TheCave\theCaveOutro.gif" class="d-block w-100" 
+                            alt="The closing GIF of The Cave">
+                          </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                      </div>
                 </div>
             </div>
             <div class="row">
+                <!-- more gifs -->
                 <div class="col-md-4">
-                    <img src="" alt="Diamond Animation">
+                    <img src="Assets\Pics\TheCave\DiamondSprite.gif" alt="Diamond Animation">
                 </div>
                 <div class="col-md-4">
-                    <img src="" alt="Diamond Animation">
+                    <img src="Assets\Pics\TheCave\DiamondSprite.gif" alt="Diamond Animation">
                 </div>
                 <div class="col-md-4">
-                    <img src="" alt="Diamond Animation">
+                    <img src="Assets\Pics\TheCave\DiamondSprite.gif" alt="Diamond Animation">
                 </div>
             </div>
             <div class="row">
@@ -204,7 +239,7 @@
         <hr>
 
         <div class="container-fluid" id="wizardAR">
-
+            
         </div>
     </body>
     
