@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, shrink-to-fit=no'>
+    <title>Wizard AR</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" rel="noopener" target="_blank" href="Assets/Pics/Live2DreamFavicon.png">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <!-- CSS link -->
+    <link href="css/stylesheet.css" rel="stylesheet">
+</head>
+
+<body>
+    <h1>UNDER CONSTRUCTION</h1>
+    <hr>
+    
+    <div>
+        <nav class="nav nav-pills nav-fill">
+            <a class="nav-item nav-link" href="index.html">Home</a>
+            <a class="nav-item nav-link" href="caveProject.html">The Cave</a>
+            <a class="nav-item nav-link" href="tx2dayProject.html">Tx2Day</a>
+            <a class="nav-item nav-link active" href="arProject.html">Wizard AR</a>
+            <a class="nav-item nav-link" href="entangledProject.html">Entangled</a>
+            <a class="nav-item nav-link" href="musicProjects.html">My Music</a>
+        </nav>
+    </div>
+
+    <hr>
+
+    <div id="contentDiv">
+        <div class="container-fluid" id="wizardAR">
+            <!-- intro -->
+            <div class="row">
+                <div class="col-12">
+                    <h2>AR Top Down Shooter</h2>
+                </div>
+            </div>
+            <!-- carousel -->
+            <div class="row">
+                <div class="col-12">
+                    <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active" data-bs-interval="5000">
+                                <img src="Assets\Pics\AR\AR_Lvl1.png" class="d-block w-100" alt="A screenshot of level 1">
+                            </div>
+                            <div class="carousel-item" data-bs-interval="5000">
+                                <img src="Assets\Pics\AR\AR_GameManager.png" class="d-block w-100"
+                                    alt="Game management code">
+                            </div>
+                            <div class="carousel-item" data-bs-interval="5000">
+                                <img src="Assets\Pics\AR\AR_SoundManager.png" class="d-block w-100"
+                                    alt="Sound management code">
+                            </div>
+                            <div class="carousel-item" data-bs-interval="5000">
+                                <img src="Assets\Pics\AR\AR_Code.png" class="d-block w-100" alt="Circling target code">
+                            </div>
+                            <div class="carousel-item" data-bs-interval="5000">
+                                <img src="Assets\Pics\AR\AR_Lvl2.png" class="d-block w-100" alt="A screenshot of level 2">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <!-- text -->
+            <div class="row">
+                <div class="col-12">
+                    <p>
+                        <button class="btn btn-primary" type="button" 
+                        data-bs-toggle="collapse" data-bs-target="#arText" 
+                        aria-expanded="false" aria-controls="arText"
+                        id="myCollapseButton">
+                        A small excerpt about the project
+                        </button>
+                    </p>
+                </div>
+                <div class="collapse" id="arText">
+                    <div class="card card-body" id="collapseText">
+                        <h3>In this project, my team and I were
+                            challenged to create an experience
+                            involving AR. We decided to create a Top
+                            Down Shooter game with one player
+                            controlling the character through the
+                            computer’s Keyboard and mouse, and
+                            another player controlling the enemies
+                            and boss using Cards that we created.
+                            I learned a lot about the workflow of
+                            building a larger scale project on a team
+                            in a short amount of time during this
+                            project.
+                            The project was fun to build because I
+                            had the opportunity to create some cool
+                            sounds, sprites, and an Audio
+                            Statemachine that could be used to play
+                            sound effects when bullets were fired or
+                            the dash button was pressed.
+                        </h3>
+                    </div>
+                </div>
+            </div>
+            <!-- boss gif -->
+            <div class="row">
+                <div class="col-md-4">
+                </div>
+                <div class="col-md-4">
+                    <img src="Assets/Pics/AR/BossIdle.gif" alt="Boss Animation">
+                </div>
+                <div class="col-md-4">
+                </div>
+            </div>
+            <!-- sfx row 1-->
+            <div class="row">
+                <div class="col-md-6">
+                    <audio controls>
+                        <source src="Assets\Audio Files\AR\DashSound.wav" type="audio/wav">
+                        Your browser does not support the audio element.
+                    </audio>
+                    <h5>Dash Sound</h5>
+                </div>
+                <div class="col-md-6">
+                    <audio controls>
+                        <source src="Assets\Audio Files\AR\EnemyHurtSound.wav" type="audio/wav">
+                        Your browser does not support the audio element.
+                    </audio>
+                    <h5>Enemy Hurt Sound</h5>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <audio controls>
+                        <source src="Assets\Audio Files\AR\ShootSound.wav" type="audio/wav">
+                        Your browser does not support the audio element.
+                    </audio>
+                    <h5>Player Shoot Sound</h5>
+                </div>
+                <div class="col-md-6">
+                    <audio controls>
+                        <source src="Assets\Audio Files\AR\HurtSound.wav" type="audio/wav">
+                        Your browser does not support the audio element.
+                    </audio>
+                    <h5>Player Hurt Sound</h5>
+                </div>
+            </div>
+            <!-- songs -->
+            <div class="row">
+                <div class="col-md-6">
+                    <audio controls>
+                        <source src="Assets\Audio Files\AR\BossFight.wav" type="audio/wav">
+                        Your browser does not support the audio element.
+                    </audio>
+                    <h5>Boss Fight Song</h5>
+                </div>
+                <div class="col-md-6">
+                    <audio controls>
+                        <source src="Assets\Audio Files\AR\ThemeSong.wav" type="audio/wav">
+                        Your browser does not support the audio element.
+                    </audio>
+                    <h5>Theme Song</h5>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+</body>
+
+</html>
