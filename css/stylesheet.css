@@ -30,15 +30,26 @@ h1, h2, h3, h5 {
     color:#202531;
 }
 
-.btn-primary {
-    background-color:#202531;
-    border-color: #ffffff;
+.btn-primary, .nav-link {
+    background-color: #202531;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    border-radius: 0.25rem;
+    transition: background-color 0.2s, color 0.2s;
 }
 
-.btn-primary :hover{
-    background-color: crimson;
-    
+.nav-link.active, .nav-link:hover, .btn-primary:hover {
+    background-color: #ffffff;
+    color: #202531;
+    border-color: #202531;
 }
+
+.nav-item + .nav-item {
+    margin-left: 10px; /* Space between nav items */
+}
+
 
 #video {
     display: flex;
@@ -47,9 +58,14 @@ h1, h2, h3, h5 {
 /* Mobile phones */
 #contentDiv {
     /* debugging */
-    /* background-color: rgb(98, 122, 131); */
+    background-color: rgb(98, 122, 131);
 
     padding:2%;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.nav {
+    padding:1%;
     padding-top: 0;
     padding-bottom: 0;
 }
@@ -58,7 +74,7 @@ h1, h2, h3, h5 {
 @media (min-width: 576px) {
     #contentDiv {
         /* debugging */
-        /* background-color: rgb(106, 69, 0); */
+        background-color: rgb(106, 69, 0);
 
         padding:10%;
         padding-top: 0;
@@ -70,7 +86,7 @@ h1, h2, h3, h5 {
 @media (min-width: 768px) {
     #contentDiv {
         /* debugging */
-        /* background-color: rgb(116, 87, 92); */
+        background-color: rgb(116, 87, 92);
 
         padding:15%;
         padding-top: 0;
@@ -82,7 +98,7 @@ h1, h2, h3, h5 {
 @media (min-width: 992px) {
     #contentDiv {
         /* debugging */
-        /* background-color: rgb(60, 98, 60); */
+        background-color: rgb(60, 98, 60);
         
         padding:20%;
         padding-top: 0;
@@ -94,7 +110,7 @@ h1, h2, h3, h5 {
 @media (min-width: 1200px) {
     #contentDiv {
         /* debugging */
-        /* background-color: rgb(102, 56, 102); */
+        background-color: rgb(102, 56, 102);
 
         padding:25%;
         padding-top: 0;
@@ -106,7 +122,7 @@ h1, h2, h3, h5 {
 @media (min-width: 1400px) {
     #contentDiv {
         /* debugging */
-        /* background-color: rgb(73, 73, 73); */
+        background-color: rgb(73, 73, 73);
 
         padding:30%;
         padding-top: 0;
