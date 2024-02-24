@@ -44,13 +44,11 @@
                     <h3>(2D Platformer)</h3>
                 </div>
             </div>
-            <!-- trailer video -->
+            <hr>
+            <!-- logo -->
             <div class="row">
-                <div class="col-12" id="caveGameTrailer">
-                    <!-- Trailer Video -->
-                    <video width="100%" height="auto" controls id="video">
-                        <source src="Assets\Video\GIMM270_GameTrailer_GOlson_10-10-23.mp4" type="video/mp4">
-                    </video>
+                <div class="col-12">
+                    <img src="Assets\Pics\TheCave\TheCaveLogo.png" class="curvedImg img-fluid" alt="The Cave Logo">
                 </div>
             </div>
             <!-- Text -->
@@ -90,29 +88,100 @@
                     </div>
                 </div>
             </div>
+            <hr>
+            <!-- section title game trailer -->
+            <div class="row">
+                <div class="col-12">
+                    <h3>Game Trailer</h3>
+                </div>
+            </div>
+            <!-- trailer video -->
+            <div class="row">
+                <div class="col-12" id="caveGameTrailer">
+                    <!-- Trailer Video -->
+                    <video width="100%" height="auto" controls id="video">
+                        <source src="Assets\Video\GIMM270_GameTrailer_GOlson_10-10-23.mp4" type="video/mp4">
+                    </video>
+                </div>
+            </div>
+            <!-- section title devlog -->
+            <div class="row">
+                <div class="col-12">
+                    <h3>Dev Log</h3>
+                </div>
+            </div>
             <!-- devlog -->
             <div class="row">
                 <div class="col-12" id="caveGameDevLog video">
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/oY0PAvClYtw?si=X8Aw2GpomB_LqTKD"
-                        title="YouTube video player" frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                        allowfullscreen></iframe>
+                    <div class="ratio ratio-16x9">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/oY0PAvClYtw?si=X8Aw2GpomB_LqTKD"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen>
+                        </iframe>
+                    </div>
                 </div>
             </div>
-            <!-- cosmo gifs -->
+            <hr>
+            <div id="animBG">
+                <!-- section title animations -->
+                <div class="row">
+                    <div class="col-12">
+                        <h3>Animations</h3>
+                    </div>
+                </div>
+                <!-- cosmo/shadow subsec-->
+                <div class="row" id="subsec">
+                    <div class="col-12">
+                        <h5>Cosmo and their Shadow</h5>
+                    </div>
+                </div>
+                <!-- cosmo/shadow gifs -->
+                <div class="row">
+                    <!-- gifs -->
+                    <div class="col-3">
+                        <h5>Cosmo Idle</h5>
+                        <img src="Assets\Pics\TheCave\Cosmo_Idle.gif" class="img-fluid"
+                            alt="Cosmo's Idle Animation">
+                    </div>
+                    <div class="col-3">
+                        <h5>Shadow Idle</h5>
+                        <img src="Assets\Pics\TheCave\Shadow_Idle.gif" class="img-fluid"
+                            alt="Shadow Idle Animation">
+                    </div>
+                    <div class="col-3">
+                        <h5>Cosmo Walk</h5>
+                        <img src="Assets\Pics\TheCave\Cosmo_Walk.gif" class="img-fluid"
+                            alt="Cosmo's Walking Animation">
+                    </div>
+                    <div class="col-3">
+                        <h5>Shadow Walk</h5>
+                        <img src="Assets\Pics\TheCave\Shadow_Walk.gif" class="img-fluid"
+                            alt="Shadow Walking Animation">
+                    </div>
+                </div>
+                <!-- collectable subsec-->
+                <div class="row" id="subsec">
+                    <div class="col-12">
+                        <h5>Collectable</h5>
+                    </div>
+                </div>
+                <!-- collectable gifs -->
+                <div class="row">
+                    <div class="col-4"></div>
+                    <div class="col-4">
+                        <h5>Collectable bounce</h5>
+                        <img src="Assets\Pics\TheCave\DiamondSprite.gif" class="img-fluid"
+                            alt="Diamond Animation">
+                    </div>
+                    <div class="col-4"></div>
+                </div>
+            </div>
+            <hr>
+            <!-- section title Gallery-->
             <div class="row">
-                <!-- gifs -->
-                <div class="col-3">
-                    <img src="Assets\Pics\TheCave\Cosmo_Idle.gif" alt="Cosmo's Idle Animation">
-                </div>
-                <div class="col-3">
-                    <img src="Assets\Pics\TheCave\Shadow_Idle.gif" alt="Shadow Walking Animation">
-                </div>
-                <div class="col-3">
-                    <img src="Assets\Pics\TheCave\Cosmo_Walk.gif" alt="Cosmo's Walking Animation">
-                </div>
-                <div class="col-3">
-                    <img src="Assets\Pics\TheCave\Shadow_Walk.gif" alt="Shadow Walking Animation">
+                <div class="col-12">
+                    <h3>Gallery</h3>
                 </div>
             </div>
             <!-- carousel -->
@@ -123,23 +192,23 @@
                     <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
                         <div class="carousel-inner">
                             <div class="carousel-item active" data-bs-interval="15000">
-                                <img src="Assets\Pics\TheCave\theCaveOpenScene.gif" class="d-block w-100"
+                                <img src="Assets\Pics\TheCave\theCaveOpenScene.gif" class="d-block w-100 img-fluid"
                                     alt="The opening GIF of The Cave">
                             </div>
                             <div class="carousel-item" data-bs-interval="5000">
-                                <img src="Assets\Pics\TheCave\TheCaveCollisionCode.png" class="d-block w-100"
+                                <img src="Assets\Pics\TheCave\TheCaveCollisionCode.png" class="d-block w-100 img-fluid"
                                     alt="The Cave collision code screenshot">
                             </div>
                             <div class="carousel-item" data-bs-interval="5000">
-                                <img src="Assets\Pics\TheCave\TheCaveDirectionChangeCode.png" class="d-block w-100"
+                                <img src="Assets\Pics\TheCave\TheCaveDirectionChangeCode.png" class="d-block w-100 img-fluid"
                                     alt="The Cave direction change code screenshot">
                             </div>
                             <div class="carousel-item" data-bs-interval="5000">
-                                <img src="Assets\Pics\TheCave\TheCavePhysicsCode.png" class="d-block w-100"
+                                <img src="Assets\Pics\TheCave\TheCavePhysicsCode.png" class="d-block w-100 img-fluid"
                                     alt="The Cave physics Code screenshot">
                             </div>
                             <div class="carousel-item" data-bs-interval="15000">
-                                <img src="Assets\Pics\TheCave\theCaveOutro.gif" class="d-block w-100"
+                                <img src="Assets\Pics\TheCave\theCaveOutro.gif" class="d-block w-100 img-fluid"
                                     alt="The closing GIF of The Cave">
                             </div>
                         </div>
@@ -160,19 +229,19 @@
             <div class="row">
                 <!-- more gifs -->
                 <div class="col-4">
-                    <img src="Assets\Pics\TheCave\DiamondSprite.gif" alt="Diamond Animation">
+                    <img src="Assets\Pics\TheCave\DiamondSprite.gif" class="img-fluid"
+                        alt="Diamond Animation">
                 </div>
                 <div class="col-4">
-                    <img src="Assets\Pics\TheCave\DiamondSprite.gif" alt="Diamond Animation">
+                    <img src="Assets\Pics\TheCave\DiamondSprite.gif" class="img-fluid"
+                        alt="Diamond Animation">
                 </div>
                 <div class="col-4">
-                    <img src="Assets\Pics\TheCave\DiamondSprite.gif" alt="Diamond Animation">
+                    <img src="Assets\Pics\TheCave\DiamondSprite.gif" class="img-fluid"
+                        alt="Diamond Animation">
                 </div>
             </div>
-            <!-- download link -->
-            <div class="row">
-                <!-- download link -->
-            </div>
+            <hr>
         </div>
     </div>
 </body>

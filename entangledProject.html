@@ -44,15 +44,44 @@
                     <h3>(Interactive Comic)</h3>
                 </div>
             </div>
+            <hr>
             <!-- logo -->
             <div class="row">
                 <div class="col-12">
-                    <img src="Assets\Pics\Entangled\Logo.png" class="curvedImg" alt="Entangled Logo">
+                    <img src="Assets\Pics\Entangled\Logo.png" class="curvedImg img-fluid" alt="Entangled Logo">
                 </div>
             </div>
-            <!-- section title IMAGES -->
+            <!-- text -->
             <div class="row">
-                <h3>IDK WHAT TO CALL THIS SECTION RN</h3>
+                <div class="col-12">
+                    <p>
+                        <button class="btn btn-primary" type="button" 
+                        data-bs-toggle="collapse" data-bs-target="#entangledText" 
+                        aria-expanded="false" aria-controls="entangledText"
+                        id="myCollapseButton">
+                        A small excerpt about the project
+                        </button>
+                    </p>
+                </div>
+                <div class="collapse" id="entangledText">
+                    <div class="card card-body" id="collapseText">
+                        <h3>This is a Web comic / app that I worked on with other developers 
+                            that aims to explain how quantum entanglement works.
+                            I learned a lot about how to condense big and convoluted ideas into easily 
+                            understood allegories in this project. I wrote the script for the comic, 
+                            and we as a team brainstormed ways to further visualize entanglement. 
+                            My biggest contribution to this visualization was to create a matching game 
+                            that populates a grid of prefabs randomly every time it is loaded.
+                            The project was fun to build because I really liked the team I was working with 
+                            and the ideas we had to showcase this thing.
+                        </h3>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <!-- section title Gallery -->
+            <div class="row">
+                <h3>Gallery</h3>
             </div>
             <!-- carousel IMAGES -->
             <div clas="row">
@@ -101,7 +130,8 @@
                     </div>
                 </div>
 
-            </div>           
+            </div>
+            <hr>
             <!-- section title NAPKIN -->
             <div class="row">
                 <h3>"Napkin Sketches"</h3>
@@ -124,7 +154,8 @@
                                     alt="napkin sketch #3">
                             </div>
                             <div class="carousel-item" data-bs-interval="5000">
-                                <img src="Assets\Pics\Entangled\Notebook_scan_4.png" class="d-block w-100" alt="napkin sketch #4">
+                                <img src="Assets\Pics\Entangled\Notebook_scan_4.png" class="d-block w-100" 
+                                    alt="napkin sketch #4">
                             </div>
                         </div>
                         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
@@ -141,6 +172,73 @@
                 </div>
 
             </div>
+            <hr>
+            <div id="animBG">
+            <!-- section title animations -->
+                <div class="row">
+                    <div class="col-12">
+                        <h3>Animations</h3>
+                    </div>
+                </div>
+                <!-- dating game gifs 1-->
+                <div class="row">
+                    <!-- gifs -->
+                    <div class="col-md-4">
+                        <h5>Corner (main character)</h5>
+                        <img src="Assets\Pics\Entangled\Corner_Idle.gif" class="img-fluid"
+                            alt="Corner Idle">
+                    </div>
+                    <div class="col-md-4">
+                        <h5>Oval</h5>
+                        <img src="Assets\Pics\Entangled\AggroOval.gif" class="img-fluid"
+                            alt="Oval Idle">
+                    </div>
+                    <div class="col-md-4">
+                        <h5>Triangle</h5>
+                        <img src="Assets\Pics\Entangled\Angry Triangle.gif" class="img-fluid"
+                            alt="Triangle Idle">
+                    </div>
+                </div>
+                <!-- dating game gifs 2-->
+                <div class="row">
+                    <!-- gifs -->
+                    <div class="col-md-4">
+                        <h5>Star</h5>
+                        <img src="Assets\Pics\Entangled\CursedStar.gif" class="img-fluid"
+                            alt="Star Idle">
+                    </div>
+                    <div class="col-md-4">
+                        <h5>Heart</h5>
+                        <img src="Assets\Pics\Entangled\HeartFella.gif" class="img-fluid"
+                            alt="Heart Idle">
+                    </div>
+                    <div class="col-md-4">
+                        <h5>Sphere</h5>
+                        <img src="Assets\Pics\Entangled\PurpleGuyNotFNAF.gif" class="img-fluid"
+                            alt="Sphere Idle">
+                    </div>
+                </div>
+                <!-- dating game gifs 3-->
+                <div class="row">
+                    <!-- gifs -->
+                    <div class="col-md-4">
+                        <h5>Octogon</h5>
+                        <img src="Assets\Pics\Entangled\RollyOctoGuy.gif" class="img-fluid"
+                            alt="Ocotgon Idle">
+                    </div>
+                    <div class="col-md-4">
+                        <h5>Square</h5>
+                        <img src="Assets\Pics\Entangled\Square.gif" class="img-fluid"
+                            alt="Square Idle">
+                    </div>
+                    <div class="col-md-4">
+                        <h5>Parallelogram</h5>
+                        <img src="Assets\Pics\Entangled\WigglyBoy.gif" class="img-fluid"
+                            alt="Parallelogram Idle">
+                    </div>
+                </div>
+            </div>
+            <hr>
             <!-- section title CODE -->
             <div class="row">
                 <h3>Code</h3>
@@ -176,34 +274,8 @@
                     </div>
                 </div>
 
-            </div> 
-            <!-- text -->
-            <div class="row">
-                <div class="col-12">
-                    <p>
-                        <button class="btn btn-primary" type="button" 
-                        data-bs-toggle="collapse" data-bs-target="#arText" 
-                        aria-expanded="false" aria-controls="arText"
-                        id="myCollapseButton">
-                        A small excerpt about the project
-                        </button>
-                    </p>
-                </div>
-                <div class="collapse" id="arText">
-                    <div class="card card-body" id="collapseText">
-                        <h3>This is a Web comic / app that I worked on with other developers 
-                            that aims to explain how quantum entanglement works.
-                            I learned a lot about how to condense big and convoluted ideas into easily 
-                            understood allegories in this project. I wrote the script for the comic, 
-                            and we as a team brainstormed ways to further visualize entanglement. 
-                            My biggest contribution to this visualization was to create a matching game 
-                            that populates a grid of prefabs randomly every time it is loaded.
-                            The project was fun to build because I really liked the team I was working with 
-                            and the ideas we had to showcase this thing.
-                        </h3>
-                    </div>
-                </div>
             </div>
+            <hr>
         </div>
     </div>
     

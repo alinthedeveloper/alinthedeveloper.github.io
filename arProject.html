@@ -43,27 +43,37 @@
                     <h2>AR Top Down Shooter</h2>
                 </div>
             </div>
+            <hr>
+            <!-- section title GALLERY-->
+            <div class="row">
+                <div class="col-12">
+                    <h3>Gallery</h3>
+                </div>
+            </div>
             <!-- carousel -->
             <div class="row">
                 <div class="col-12">
                     <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
                         <div class="carousel-inner">
                             <div class="carousel-item active" data-bs-interval="5000">
-                                <img src="Assets\Pics\AR\AR_Lvl1.png" class="d-block w-100" alt="A screenshot of level 1">
+                                <img src="Assets\Pics\AR\AR_Lvl1.png" class="d-block w-100 img-fluid" 
+                                    alt="A screenshot of level 1">
                             </div>
                             <div class="carousel-item" data-bs-interval="5000">
-                                <img src="Assets\Pics\AR\AR_GameManager.png" class="d-block w-100"
+                                <img src="Assets\Pics\AR\AR_GameManager.png" class="d-block w-100 img-fluid"
                                     alt="Game management code">
                             </div>
                             <div class="carousel-item" data-bs-interval="5000">
-                                <img src="Assets\Pics\AR\AR_SoundManager.png" class="d-block w-100"
+                                <img src="Assets\Pics\AR\AR_SoundManager.png" class="d-block w-100 img-fluid"
                                     alt="Sound management code">
                             </div>
                             <div class="carousel-item" data-bs-interval="5000">
-                                <img src="Assets\Pics\AR\AR_Code.png" class="d-block w-100" alt="Circling target code">
+                                <img src="Assets\Pics\AR\AR_Code.png" class="d-block w-100 img-fluid" 
+                                    alt="Circling target code">
                             </div>
                             <div class="carousel-item" data-bs-interval="5000">
-                                <img src="Assets\Pics\AR\AR_Lvl2.png" class="d-block w-100" alt="A screenshot of level 2">
+                                <img src="Assets\Pics\AR\AR_Lvl2.png" class="d-block w-100 img-fluid" 
+                                    alt="A screenshot of level 2">
                             </div>
                         </div>
                         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
@@ -115,26 +125,83 @@
                     </div>
                 </div>
             </div>
-            <!-- boss gif -->
+            <hr>
+            <div id="animBG">
+                <!-- section title ANIMATIONS-->
+                <div class="row">
+                    <div class="col-12">
+                        <h3>Animations</h3>
+                    </div>
+                </div>
+                <!-- rufus subsec-->
+                <div class="row" id="subsec">
+                    <div class="col-12">
+                        <h5>Rufus, the D20 Turtle</h5>
+                    </div>
+                </div>
+                <!-- rufus GIFS -->
+                <div class="row">
+                    <div class="col-md-3">
+                        <h5>Idle</h5>
+                        <img src="Assets\Pics\AR\RufusIdle.gif" alt="Rufus Idle" class="img-fluid">
+                    </div>
+                    <div class="col-md-3">
+                        <h5>Normal Dice Roll</h5>
+                        <img src="Assets\Pics\AR\RufusDiceRoll.gif" alt="Rufus Roll" class="img-fluid">
+                    </div>
+                    <div class="col-md-3">
+                        <h5>Nat 20 Roll</h5>
+                        <img src="Assets\Pics\AR\Rufus20.gif" alt="Rufus Nat 20" class="img-fluid">
+                    </div>
+                    <div class="col-md-3">
+                        <h5>Nat 1 Roll</h5>
+                        <img src="Assets\Pics\AR\RufusNatOne.gif" alt="Rufus Nat 1" class="img-fluid">
+                    </div>
+                </div>
+                <!-- stumpy subsec-->
+                <div class="row" id="subsec">
+                    <div class="col-12">
+                        <h5>Stumpy, the stump</h5>
+                    </div>
+                </div>
+                <!-- stumpy GIFS -->
+                <div class="row">
+                    <div class="col-12">
+                        <h5>Idle</h5>
+                        <img src="Assets\Pics\AR\Stumpy.gif" alt="Stumpy Idle" class="img-fluid">
+                    </div>
+                </div>
+                <!-- boss subsec-->
+                <div class="row" id="subsec">
+                    <div class="col-12">
+                        <h5>Final boss</h5>
+                    </div>
+                </div>
+                <!--boss GIFS -->
+                <div class="row">    
+                    <div class="col-12">
+                        <h5>Idle</h5>
+                        <img src="Assets/Pics/AR/BossIdle.gif" alt="Boss Animation" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <!-- section title Audio-->
             <div class="row">
-                <div class="col-md-4">
-                </div>
-                <div class="col-md-4">
-                    <img src="Assets/Pics/AR/BossIdle.gif" alt="Boss Animation">
-                </div>
-                <div class="col-md-4">
+                <div class="col-12">
+                    <h3>Audio</h3>
                 </div>
             </div>
             <!-- sfx row 1-->
             <div class="row">
-                <div class="col-md-6">
+                <div class="col-lg-6">
                     <audio controls>
                         <source src="Assets\Audio Files\AR\DashSound.wav" type="audio/wav">
                         Your browser does not support the audio element.
                     </audio>
                     <h5>Dash Sound</h5>
                 </div>
-                <div class="col-md-6">
+                <div class="col-lg-6">
                     <audio controls>
                         <source src="Assets\Audio Files\AR\EnemyHurtSound.wav" type="audio/wav">
                         Your browser does not support the audio element.
@@ -142,15 +209,16 @@
                     <h5>Enemy Hurt Sound</h5>
                 </div>
             </div>
+            <!-- sfx row 2 -->
             <div class="row">
-                <div class="col-md-6">
+                <div class="col-lg-6">
                     <audio controls>
                         <source src="Assets\Audio Files\AR\ShootSound.wav" type="audio/wav">
                         Your browser does not support the audio element.
                     </audio>
                     <h5>Player Shoot Sound</h5>
                 </div>
-                <div class="col-md-6">
+                <div class="col-lg-6">
                     <audio controls>
                         <source src="Assets\Audio Files\AR\HurtSound.wav" type="audio/wav">
                         Your browser does not support the audio element.
@@ -160,14 +228,14 @@
             </div>
             <!-- songs -->
             <div class="row">
-                <div class="col-md-6">
+                <div class="col-lg-6">
                     <audio controls>
                         <source src="Assets\Audio Files\AR\BossFight.wav" type="audio/wav">
                         Your browser does not support the audio element.
                     </audio>
                     <h5>Boss Fight Song</h5>
                 </div>
-                <div class="col-md-6">
+                <div class="col-lg-6">
                     <audio controls>
                         <source src="Assets\Audio Files\AR\ThemeSong.wav" type="audio/wav">
                         Your browser does not support the audio element.
@@ -175,6 +243,56 @@
                     <h5>Theme Song</h5>
                 </div>
             </div>
+            <hr>
+            <!-- section title UI-->
+            <div class="row">
+                <div class="col-12">
+                    <h3>UI Sprites</h3>
+                </div>
+            </div>
+            <!-- mana subsec-->
+            <div class="row" id="subsec">
+                <div class="col-12">
+                    <h5>Mana</h5>
+                </div>
+            </div>
+            <!-- mana pngs -->
+            <div class="row">
+                <div class="col-md-4">
+                    <h5>Full</h5>
+                    <img src="Assets\Pics\AR\Mana1.png" alt="Mana Full" class="img-fluid">
+                </div>
+                <div class="col-md-4">
+                    <h5>Half</h5>
+                    <img src="Assets\Pics\AR\Mana2.png" alt="Mana Half" class="img-fluid">
+                </div>
+                <div class="col-md-4">
+                    <h5>Empty</h5>
+                    <img src="Assets\Pics\AR\Mana3.png" alt="Mana Empty" class="img-fluid">
+                </div>
+            </div>
+            <!-- heart subsec -->
+            <div class="row" id="subsec">
+                <div class="col-12">
+                    <h5>Hearts</h5>
+                </div>
+            </div>
+            <!-- Hearts pngs -->
+            <div class="row">
+                <div class="col-md-4">
+                    <h5>Full</h5>
+                    <img src="Assets\Pics\AR\Hearts1.png" alt="Heart Full" class="img-fluid">
+                </div>
+                <div class="col-md-4">
+                    <h5>Half</h5>
+                    <img src="Assets\Pics\AR\Hearts2.png" alt="Heart Half" class="img-fluid">
+                </div>
+                <div class="col-md-4">
+                    <h5>Empty</h5>
+                    <img src="Assets\Pics\AR\Hearts3.png" alt="Heart Empty" class="img-fluid">
+                </div>
+            </div>
+            <hr>
         </div>
     </div>
     
