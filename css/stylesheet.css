@@ -7,6 +7,10 @@ body {
     font-size: large;
 }
 
+#titles {
+    text-align: center;
+}
+
 .curvedImg {
     object-fit: contain;
     object-position: center;
@@ -28,6 +32,10 @@ h1, h2, h5 {
 
 #collapseText{
     color:#202531;
+}
+
+#contactMe {
+    text-align: left;
 }
 
 .btn-primary, .nav-link {
