@@ -241,3 +241,12 @@ h1, h2, h5 {
     color: white;
 }
 
+#navBG {
+    background-color: #202531;
+}
+
+.navbar-nav {
+    justify-content: space-around;
+    display: flex;
+    width: 100%;
+}
