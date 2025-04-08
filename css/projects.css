@@ -2,6 +2,10 @@
     display: flex;
 }
 
+#emptyCard {
+  background-color: #655889;
+}
+
 #boxyBoy {
     background-color: green;
 }
