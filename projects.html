@@ -1,0 +1,1251 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, shrink-to-fit=no'>
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" rel="noopener" target="_blank" href="Assets/Pics/Misc/Live2DreamFavicon.png">
+    
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+
+    <!-- Stylesheets -->
+    <link href="css/base.css" rel="stylesheet">
+    <link href="css/footer.css" rel="stylesheet">
+    <link href="css/projects.css" rel="stylesheet">
+
+    <title>Projects</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-md navbar-light sticky-top" id="navBG">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item col">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item col">
+                        <a class="nav-link active" href="projects.html">Projects</a>
+                    </li>
+                    <li class="nav-item col">
+                        <a class="nav-link" href="skills.html">Skills</a>
+                    </li>
+                    <li class="nav-item col">
+                        <a class="nav-link" href="music.html">Music</a>
+                    </li>
+                    <li class="nav-item col">
+                        <a class="nav-link" href="resume.html">Resume</a>
+                    </li>
+                    <li class="nav-item col">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div id="contentDiv">
+        <div class="container-fluid">
+            <div class="row">
+                <!-- The Talking Stick -->
+                <div class="col-md-4">
+                    <!-- Project Card -->
+                    <div class="project-card" data-project="tx2day">
+                        <img src="Assets/Pics/Tx2Day/Tx2Day Logo with BG.png" alt="Tx2Day Thumbnail">
+                        <div class="project-info">
+                            <h3>Tx2Day</h3>
+                            <p class="date">Summer 2023 - Present</p>
+                            <p class="desc">Occupational therapy paperwork automation webapp</p>
+                        </div>
+                    </div>
+                    
+                    <!-- Modal Content -->
+                    <div class="project-modal" id="tx2day-modal">
+                        <div class="modal-content">
+                            <span class="close">&times;</span>
+                            <div class="container-fluid" id="Tx2Day">
+                                <!-- intro -->
+                                <div class="row">
+                                    <div class="col-12">
+                                        <h2><a href="Tx2Day.com" target="_blank"></a>Tx2Day.com</h2>
+                                    </div>
+                                </div>
+                                <hr>
+                                <!-- logo -->
+                                <div class="row">
+                                    <div class="col-12">
+                                        <img src="Assets\Pics\Tx2Day\Tx2Day Logo with BG.png" class="curvedImg img-fluid" alt="Tx2Day Logo">
+                                    </div>
+                                </div>
+                                <!-- text -->
+                                <div class="row">
+                                    <div class="col-12">
+                                        <p>
+                                            <button class="btn btn-primary" type="button" 
+                                            data-bs-toggle="collapse" data-bs-target="#collapseExample" 
+                                            aria-expanded="false" aria-controls="collapseExample"
+                                            id="myCollapseButton">
+                                            Click here to learn about Tx2Day
+                                            </button>
+                                        </p>
+                                    </div>
+                                    <div class="collapse" id="collapseExample">
+                                        <div class="card card-body" id="collapseText">
+                                            <h3>Overview:</h3>
+                                            <p>Tx2Day is a web application I've been working on aimed at simplifying therapy documentation processes for practitioners.
+                                            In particular, the application is designed to help Occupational Therapists manage their daily reports, client information, and scheduling needs.
+                                            </p>
+                                            <h3>Goal:</h3>
+                                            <p>The primary goal of the Tx2Day project is to create a user-friendly platform that addresses the 
+                                            complexities of therapy documentation by building a modular daily schedule and report interface.</p>
+                                            <h3>Insights & Skills:</h3>
+                                            <h5>UI/UX:</h5>
+                                            <p>Throughout the project, I had the opportunity to leverage and showcase the user experience design skills 
+                                            I acquired during my studies in the <a href="https://www.boisestate.edu/gimm/about/">Boise State University GIMM Degree</a>.
+                                            By utilizing paper prototypes in conjunction with regular client meetings, I gained real world experience designing and iterating on a series of prototypes to determine what experience would best fit the interface.</p>
+                                            <h5>Technical:</h5>
+                                            <p>Outside of the sphere of designed interactions, this project has also introduced me to a series of common technical issues and solutions in the web development world.
+                                            In order to ensure the confidentiality of client data, I have learned how to implement data encryption within SQL queries, build a secure login system, and implement a series of data persistence solutions to ensure that client data is not lost between sessions.
+                                            </p>
+                                            <h3>What I enjoyed about the project:</h3>
+                                            <p>What makes working on the Tx2Day project particularly enjoyable for me thus far is that I have been given an opportunity to learn every step it takes to make a solid, structured web application. 
+                                            This project has essentially been my first forray into Web Development, and from setting up a hosting service to building a comprehensive registration system, I've become a much better programmer while working on this project.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <hr>
+                                <!-- section title Gallery -->
+                                <div class="row">
+                                    <div class="col-12">
+                                        <h3>Gallery</h3>
+                                    </div>
+                                </div>
+                                <!-- first row of pictures -->
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <h5>Welcome Page</h5>
+                                        <img class="curvedImg img-fluid" src="Assets\Pics\Tx2Day\Tx2Day_Welcome.png" alt="The Tx2Day Welcome Page">
+                                    </div>
+                                    <div class="col-md-6">
+                                        <h5>Sign In</h5>
+                                        <img class="curvedImg img-fluid" src="Assets\Pics\Tx2Day\Tx2Day_Sign_In.png" alt="The Tx2Day Sign-in Page">
+                                    </div>
+                                </div>
+                                <!-- carousel -->
+                                <div class="row">
+                                    <div class="col-12">
+                                        <!-- autoscrolling image gallery of screenshots from Bootstrap-->
+                                        <!-- a second interval is 1000 in the data-bs-interval variable -->
+                                        <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+                                            <div class="carousel-inner">
+                                                <div class="carousel-item active" data-bs-interval="5000">
+                                                    <img src="Assets\Pics\Tx2Day\Tx2Day_Client_Select.png" class="d-block w-100"
+                                                        alt="Client Page">
+                                                </div>
+                                                <div class="carousel-item" data-bs-interval="5000">
+                                                    <img src="Assets\Pics\Tx2Day\Tx2Day_Daily_Report.png" class="d-block w-100"
+                                                        alt="Daily Report" loading="lazy">
+                                                </div>
+                                                <div class="carousel-item" data-bs-interval="5000">
+                                                    <img src="Assets\Pics\Tx2Day\Tx2Day_Location_Schedule.png" class="d-block w-100"
+                                                        alt="Location Schedule" loading="lazy">
+                                                </div>
+                                                <div class="carousel-item" data-bs-interval="5000">
+                                                    <img src="Assets\Pics\Tx2Day\Tx2Day_Visit.png" class="d-block w-100"
+                                                        alt="Visit Page" loading="lazy">
+                                                </div>
+                                            </div>
+                                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
+                                                data-bs-slide="prev">
+                                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                <span class="visually-hidden">Previous</span>
+                                            </button>
+                                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
+                                                data-bs-slide="next">
+                                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                                <span class="visually-hidden">Next</span>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <hr>
+                            </div>
+                        </div>
+                    </div>  
+                </div>
+                <!-- Sappy -->
+                <div class="col-md-4">
+                    <!-- Project Card -->
+                    <div class="project-card" data-project="sappy">
+                        <img src="Assets/Pics/Sappy/Sappy_Logo.png" alt="Sappy Thumbnail">
+                        <div class="project-info">
+                            <h3>Sappy</h3>
+                            <p class="date">September 6, 2024 - November 7, 2024</p>
+                            <p class="desc">3D Platformer</p>
+                        </div>
+                    </div>
+                    
+                    <!-- Modal Content -->
+                    <div class="project-modal" id="sappy-modal">
+                        <div class="modal-content">
+                            <span class="close">&times;</span>
+                            <div class="container-fluid" id="sappy">
+                                <!-- Intro -->
+                                <div class="row">
+                                    <div class="col-12">
+                                        <h2>Sappy, a sapling story</h2>
+                                    </div>
+                                </div>
+                                <hr>
+                                <!-- logo -->
+                                <div class="row">
+                                    <div class="col-12">
+                                        <img src="Assets\Pics\Sappy\Sappy_Logo.png" class="curvedImg img-fluid" alt="Sappy Logo">
+                                    </div>
+                                </div>
+                                <!-- text -->
+                                <div class="row">
+                                    <div class="col-12">
+                                        <p>
+                                            <button class="btn btn-primary" type="button" 
+                                            data-bs-toggle="collapse" data-bs-target="#collapseExample" 
+                                            aria-expanded="false" aria-controls="collapseExample"
+                                            id="myCollapseButton">
+                                            Click here to learn about Sappy
+                                            </button>
+                                        </p>
+                                    </div>
+                                    <div class="collapse" id="collapseExample">
+                                        <div class="card card-body" id="collapseText">
+                                            <h3>Overview:</h3>
+                                            <p>Sappy is a 3D platformer that a small team and I made for one of my club's (Game Development and Design Club at Boise State) game jam's.
+                                            The game is about a seedling that has to grow through different "sunspots" in order to get back to his family after being blown away.
+                                            </p>
+                                            <h3>Goal:</h3>
+                                            <p>For this project, the game jam's theme was Growth, so our goal for the project was to find an interesting way to build that into the theme of the game.
+                                            </p>
+                                            <h3>Contributions</h3>
+                                            <h5>Leadership</h5>
+                                            <p>For this project, I was the project manager, facilitated meetings, structured check-ins, and ensured that progress continued throughout the timeframe.</p>
+                                            <h5>Programming</h5>
+                                            <p>I built out the animation controller for sappy, figured out how the insect movement would be implemented, set up dynamic audio rules, created the pause menu mechanic, and worked on other general debugging.</p>
+                                            <h5>Audio</h5>
+                                            <p>I created all of the music for the game in Ableton Live 11.</p>
+                                            <h5>Level Design</h5>
+                                            <p>In the early stages of development, Jordan Alba Reed and I generated terrain for the open world using heightmap data from around the Boise area and Terrain Export tools.
+                                            This grayboxing work was then sent to the 3D artist on our team, Jaden Rogers, who took what we made and stylized it into the final terrain model that we used in the game.
+                                            </p>
+                                            <h3>What I enjoyed about the project:</h3>
+                                            <p>I think the most enjoyable aspect of working on the Sappy project for me was that it wasn't bound to the same rules as my school assignments.
+                                            During the time where I was working on this project, I was also a 3D artist for 4 other projects, and having the opportunity to work on something outside of Blender was a nice change of pace.
+                                            I also had a lot of fun working with the team I was on, and I think that the final product is a great representation of what we were able to accomplish in such a short time frame.</p>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <hr>
+                                <!-- section title Gallery -->
+                                <div class="row">
+                                    <div class="col-12">
+                                        <h3>Gallery</h3>
+                                    </div>
+                                </div>
+                                <!-- carousel -->
+                                <div class="row">
+                                    <div class="col-12">
+                                        <!-- autoscrolling image gallery of screenshots from Bootstrap-->
+                                        <!-- a second interval is 1000 in the data-bs-interval variable -->
+                                        <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+                                            <div class="carousel-inner">
+                                                <div class="carousel-item active" data-bs-interval="5000">
+                                                    <img src="Assets\Pics\Tx2Day\Tx2Day_Client_Select.png" class="d-block w-100"
+                                                        alt="Client Page">
+                                                </div>
+                                                <div class="carousel-item" data-bs-interval="5000">
+                                                    <img src="Assets\Pics\Tx2Day\Tx2Day_Daily_Report.png" class="d-block w-100"
+                                                        alt="Daily Report" loading="lazy">
+                                                </div>
+                                                <div class="carousel-item" data-bs-interval="5000">
+                                                    <img src="Assets\Pics\Tx2Day\Tx2Day_Location_Schedule.png" class="d-block w-100"
+                                                        alt="Location Schedule" loading="lazy">
+                                                </div>
+                                                <div class="carousel-item" data-bs-interval="5000">
+                                                    <img src="Assets\Pics\Tx2Day\Tx2Day_Visit.png" class="d-block w-100"
+                                                        alt="Visit Page" loading="lazy">
+                                                </div>
+                                            </div>
+                                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
+                                                data-bs-slide="prev">
+                                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                <span class="visually-hidden">Previous</span>
+                                            </button>
+                                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
+                                                data-bs-slide="next">
+                                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                                <span class="visually-hidden">Next</span>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <hr>
+                            </div>
+                        </div>
+                    </div>  
+                </div>
+                <!-- Tx2Day -->
+                <div class="col-md-4">
+                    <!-- Project Card -->
+                    <div class="project-card" data-project="tx2day">
+                        <img src="Assets/Pics/Tx2Day/Tx2Day Logo with BG.png" alt="Tx2Day Thumbnail">
+                        <div class="project-info">
+                            <h3>Tx2Day</h3>
+                            <p class="date">Summer 2023 - Present</p>
+                            <p class="desc">Occupational therapy paperwork automation webapp</p>
+                        </div>
+                    </div>
+                    
+                    <!-- Modal Content -->
+                    <div class="project-modal" id="tx2day-modal">
+                        <div class="modal-content">
+                            <span class="close">&times;</span>
+                            <div class="container-fluid" id="Tx2Day">
+                                <!-- intro -->
+                                <div class="row">
+                                    <div class="col-12">
+                                        <h2><a href="Tx2Day.com" target="_blank"></a>Tx2Day.com</h2>
+                                    </div>
+                                </div>
+                                <hr>
+                                <!-- logo -->
+                                <div class="row">
+                                    <div class="col-12">
+                                        <img src="Assets\Pics\Tx2Day\Tx2Day Logo with BG.png" class="curvedImg img-fluid" alt="Tx2Day Logo">
+                                    </div>
+                                </div>
+                                <!-- text -->
+                                <div class="row">
+                                    <div class="col-12">
+                                        <p>
+                                            <button class="btn btn-primary" type="button" 
+                                            data-bs-toggle="collapse" data-bs-target="#collapseExample" 
+                                            aria-expanded="false" aria-controls="collapseExample"
+                                            id="myCollapseButton">
+                                            Click here to learn about Tx2Day
+                                            </button>
+                                        </p>
+                                    </div>
+                                    <div class="collapse" id="collapseExample">
+                                        <div class="card card-body" id="collapseText">
+                                            <h3>Overview:</h3>
+                                            <p>Tx2Day is a web application I've been working on aimed at simplifying therapy documentation processes for practitioners.
+                                            In particular, the application is designed to help Occupational Therapists manage their daily reports, client information, and scheduling needs.
+                                            </p>
+                                            <h3>Goal:</h3>
+                                            <p>The primary goal of the Tx2Day project is to create a user-friendly platform that addresses the 
+                                            complexities of therapy documentation by building a modular daily schedule and report interface.</p>
+                                            <h3>Insights & Skills:</h3>
+                                            <h5>UI/UX:</h5>
+                                            <p>Throughout the project, I had the opportunity to leverage and showcase the user experience design skills 
+                                            I acquired during my studies in the <a href="https://www.boisestate.edu/gimm/about/">Boise State University GIMM Degree</a>.
+                                            By utilizing paper prototypes in conjunction with regular client meetings, I gained real world experience designing and iterating on a series of prototypes to determine what experience would best fit the interface.</p>
+                                            <h5>Technical:</h5>
+                                            <p>Outside of the sphere of designed interactions, this project has also introduced me to a series of common technical issues and solutions in the web development world.
+                                            In order to ensure the confidentiality of client data, I have learned how to implement data encryption within SQL queries, build a secure login system, and implement a series of data persistence solutions to ensure that client data is not lost between sessions.
+                                            </p>
+                                            <h3>What I enjoyed about the project:</h3>
+                                            <p>What makes working on the Tx2Day project particularly enjoyable for me thus far is that I have been given an opportunity to learn every step it takes to make a solid, structured web application. 
+                                            This project has essentially been my first forray into Web Development, and from setting up a hosting service to building a comprehensive registration system, I've become a much better programmer while working on this project.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <hr>
+                                <!-- section title Gallery -->
+                                <div class="row">
+                                    <div class="col-12">
+                                        <h3>Gallery</h3>
+                                    </div>
+                                </div>
+                                <!-- first row of pictures -->
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <h5>Welcome Page</h5>
+                                        <img class="curvedImg img-fluid" src="Assets\Pics\Tx2Day\Tx2Day_Welcome.png" alt="The Tx2Day Welcome Page">
+                                    </div>
+                                    <div class="col-md-6">
+                                        <h5>Sign In</h5>
+                                        <img class="curvedImg img-fluid" src="Assets\Pics\Tx2Day\Tx2Day_Sign_In.png" alt="The Tx2Day Sign-in Page">
+                                    </div>
+                                </div>
+                                <!-- carousel -->
+                                <div class="row">
+                                    <div class="col-12">
+                                        <!-- autoscrolling image gallery of screenshots from Bootstrap-->
+                                        <!-- a second interval is 1000 in the data-bs-interval variable -->
+                                        <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+                                            <div class="carousel-inner">
+                                                <div class="carousel-item active" data-bs-interval="5000">
+                                                    <img src="Assets\Pics\Tx2Day\Tx2Day_Client_Select.png" class="d-block w-100"
+                                                        alt="Client Page">
+                                                </div>
+                                                <div class="carousel-item" data-bs-interval="5000">
+                                                    <img src="Assets\Pics\Tx2Day\Tx2Day_Daily_Report.png" class="d-block w-100"
+                                                        alt="Daily Report" loading="lazy">
+                                                </div>
+                                                <div class="carousel-item" data-bs-interval="5000">
+                                                    <img src="Assets\Pics\Tx2Day\Tx2Day_Location_Schedule.png" class="d-block w-100"
+                                                        alt="Location Schedule" loading="lazy">
+                                                </div>
+                                                <div class="carousel-item" data-bs-interval="5000">
+                                                    <img src="Assets\Pics\Tx2Day\Tx2Day_Visit.png" class="d-block w-100"
+                                                        alt="Visit Page" loading="lazy">
+                                                </div>
+                                            </div>
+                                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
+                                                data-bs-slide="prev">
+                                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                <span class="visually-hidden">Previous</span>
+                                            </button>
+                                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
+                                                data-bs-slide="next">
+                                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                                <span class="visually-hidden">Next</span>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <hr>
+                            </div>
+                        </div>
+                    </div>  
+                </div>    
+            </div>
+            <div class="row">
+                <!-- Entangled -->
+                <div class="col-md-4">
+                    <!-- Project Card -->
+                    <div class="project-card" data-project="entangled">
+                        <img src="Assets/Pics/Entangled/Logo.png" alt="Entangled Thumbnail">
+                        <!-- Thumbnail Info -->
+                        <div class="project-info">
+                            <h3>Entangled</h3>
+                            <p class="date">Spring 2023</p>
+                            <p class="desc">Interactive comic about quantum entanglement</p>
+                        </div>
+                    </div>
+                    
+                    <!-- Modal Content -->
+                    <div class="project-modal" id="entangled-modal">
+                        <div class="modal-content">
+                            <span class="close">&times;</span>
+                            <div class="container-fluid" id="entangled">
+                                <!-- intro -->
+                                <div class="row">
+                                    <div class="col-12">
+                                        <h2>Entangled Interactive Comic</h2>
+                                    </div>
+                                </div>
+                                <hr>
+                                <!-- logo -->
+                                <div class="row">
+                                    <div class="col-12">
+                                        <img src="Assets/Pics/Entangled/Logo.png" class="curvedImg img-fluid" alt="Tx2Day Logo">
+                                    </div>
+                                </div>
+                                <!-- text -->
+                                <div class="row">
+                                    <div class="col-12">
+                                        <p>
+                                            <button class="btn btn-primary" type="button" 
+                                            data-bs-toggle="collapse" data-bs-target="#collapseExample" 
+                                            aria-expanded="false" aria-controls="collapseExample"
+                                            id="myCollapseButton">
+                                            Click here to learn about Entangled
+                                            </button>
+                                        </p>
+                                    </div>
+                                    <div class="collapse" id="collapseExample">
+                                        <div class="card card-body" id="collapseText">
+                                            <h3>Overview:</h3>
+                                            <p>Entangled is an interactive comic four classmates and I created in our first year at GIMM.
+                                            The comic is an allegory for the concept of quantum entanglement, and is designed to be a fun and engaging way to learn about the topic.
+                                            </p>
+                                            <h3>Goal:</h3>
+                                            <p>The primary goal we were given for the Entangled project was to find a way to introduce and explain the idea of quantum entanglement through the medium of a web comic.
+                                            The comic is designed to be accessible to a wide audience, and our primary method of achieving this was through showing, rather than telling the basic fundamental rules of the concept.
+                                            </p>
+                                            <h3>Contributions:</h3>
+                                            <h5>Programming</h5>
+                                            <p>Another student and I took up the brunt of the coding challenges in this project. I personally tackled building out a "Dating Game" that randomly instantiates an array of Unity Prefabs using a set series of locations and deletes them when entangled "partners" are clicked in sequence.
+                                            I also helped build out a panel changing system that moved the camera between comic panels, added tap interactions, built out the credit scene, and helped with debugging.</p>
+                                            </p>
+                                            <h5>Art and Animations</h5>
+                                            <p>I used Aseprite to animate different dancing animations for each of the entangled pairs, created sprites for the main character, and used photoshop for rough drafting comic panels.
+                                            I also used Adobe AfterEffects to edit the final video that plays at the end of the comic.
+                                            <h5>Storytelling</h5>
+                                            <p>Near the start of this project's development period once we had decided on using soulmates as a metaphor for entangled particles, I wrote out a script of the story that we used in order to plan out the panels.</p>
+                                            </p>
+                                            <h5>Audio</h5>
+                                            <p>I created a song for the dating game using Ableton Live 11 and Serum.</p>
+                                            <h3>What I enjoyed about the project:</h3>
+                                            <p>Outside of it being classwork, I had a great time working on this project and have presented the final product at Hackfort (within the Boise Treefort festival) for the last couple of years now.
+                                            I wrote the story that our final product is based on, and the team I worked with have become some of my closest friends in my degree, so this project is very close to my heart.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <hr>
+                                <!-- section title Gallery -->
+                                <div class="row">
+                                    <h3>Gallery</h3>
+                                </div>
+                                <!-- carousel IMAGES -->
+                                <div clas="row">
+                                    <div class="col-12">
+                                        <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+                                            <div class="carousel-inner">
+                                                <div class="carousel-item active" data-bs-interval="5000">
+                                                    <img src="Assets\Pics\Entangled\matchingGame.png" class="d-block w-100"
+                                                        alt="the Entangled matching game">
+                                                </div>
+                                                <div class="carousel-item" data-bs-interval="5000">
+                                                    <img src="Assets\Pics\Entangled\Page_1.png" class="d-block w-100"
+                                                        alt="page one of the comic" loading="lazy">
+                                                </div>
+                                                <div class="carousel-item" data-bs-interval="5000">
+                                                    <img src="Assets\Pics\Entangled\Page_2.png" class="d-block w-100"
+                                                        alt="page two of the comic" loading="lazy">
+                                                </div>
+                                                <div class="carousel-item" data-bs-interval="5000">
+                                                    <img src="Assets\Pics\Entangled\Page_3.png" class="d-block w-100"
+                                                        alt="page three of the comic" loading="lazy">
+                                                </div>
+                                                <div class="carousel-item" data-bs-interval="5000">
+                                                    <img src="Assets\Pics\Entangled\UIandWakeUp.png" class="d-block w-100"
+                                                        alt="a closer look at one of the panels" loading="lazy">
+                                                </div>
+                                                <div class="carousel-item" data-bs-interval="5000">
+                                                    <img src="Assets\Pics\Entangled\VideoSnippet.png" class="d-block w-100"
+                                                        alt="a screengrab from the rotoscope video we made" loading="lazy">
+                                                </div>
+                                                <div class="carousel-item" data-bs-interval="5000">
+                                                    <img src="Assets\Pics\Entangled\CoolGlitch.png" class="d-block w-100"
+                                                        alt="a cool glitch that we encountered while working on the credit scene"
+                                                        loading="lazy">
+                                                </div>
+                                            </div>
+                                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
+                                                data-bs-slide="prev">
+                                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                <span class="visually-hidden">Previous</span>
+                                            </button>
+                                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
+                                                data-bs-slide="next">
+                                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                                <span class="visually-hidden">Next</span>
+                                            </button>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <hr>
+                                <!-- section title NAPKIN -->
+                                <div class="row">
+                                    <h3>"Napkin Sketches"</h3>
+                                </div>
+                                <!-- carousel NAPKIN -->
+                                <div clas="row">
+                                    <div class="col-12">
+                                        <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+                                            <div class="carousel-inner">
+                                                <div class="carousel-item active" data-bs-interval="5000">
+                                                    <img src="Assets\Pics\Entangled\Notebook_scan_1.png" class="d-block w-100"
+                                                        alt="napkin sketch #1">
+                                                </div>
+                                                <div class="carousel-item" data-bs-interval="5000">
+                                                    <img src="Assets\Pics\Entangled\Notebook_scan_2.png" class="d-block w-100"
+                                                        alt="napkin sketch #2" loading="lazy">
+                                                </div>
+                                                <div class="carousel-item" data-bs-interval="5000">
+                                                    <img src="Assets\Pics\Entangled\Notebook_scan_3.png" class="d-block w-100"
+                                                        alt="napkin sketch #3" loading="lazy">
+                                                </div>
+                                                <div class="carousel-item" data-bs-interval="5000">
+                                                    <img src="Assets\Pics\Entangled\Notebook_scan_4.png" class="d-block w-100"
+                                                        alt="napkin sketch #4" loading="lazy">
+                                                </div>
+                                            </div>
+                                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
+                                                data-bs-slide="prev">
+                                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                <span class="visually-hidden">Previous</span>
+                                            </button>
+                                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
+                                                data-bs-slide="next">
+                                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                                <span class="visually-hidden">Next</span>
+                                            </button>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <hr>
+                                <div id="animBG">
+                                    <!-- section title animations -->
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <h3>Animations</h3>
+                                        </div>
+                                    </div>
+                                    <!-- dating game gifs 1-->
+                                    <div class="row">
+                                        <!-- gifs -->
+                                        <div class="col-md-4">
+                                            <h5>Corner (main character)</h5>
+                                            <img src="Assets\Pics\Entangled\Corner_Idle.gif" class="img-fluid" alt="Corner Idle"
+                                                loading="lazy">
+                                        </div>
+                                        <div class="col-md-4">
+                                            <h5>Oval</h5>
+                                            <img src="Assets\Pics\Entangled\AggroOval.gif" class="img-fluid" alt="Oval Idle" loading="lazy">
+                                        </div>
+                                        <div class="col-md-4">
+                                            <h5>Triangle</h5>
+                                            <img src="Assets\Pics\Entangled\Angry Triangle.gif" class="img-fluid" alt="Triangle Idle"
+                                                loading="lazy">
+                                        </div>
+                                    </div>
+                                    <!-- dating game gifs 2-->
+                                    <div class="row">
+                                        <!-- gifs -->
+                                        <div class="col-md-4">
+                                            <h5>Star</h5>
+                                            <img src="Assets\Pics\Entangled\CursedStar.gif" class="img-fluid" alt="Star Idle"
+                                                loading="lazy">
+                                        </div>
+                                        <div class="col-md-4">
+                                            <h5>Heart</h5>
+                                            <img src="Assets\Pics\Entangled\HeartFella.gif" class="img-fluid" alt="Heart Idle"
+                                                loading="lazy">
+                                            </div>
+                                            <div class="col-md-4">
+                                                <h5>Sphere</h5>
+                                            <img src="Assets\Pics\Entangled\PurpleGuyNotFNAF.gif" class="img-fluid" alt="Sphere Idle"
+                                                loading="lazy">
+                                            </div>
+                                    </div>
+                                    <!-- dating game gifs 3-->
+                                    <div class="row">
+                                        <!-- gifs -->
+                                        <div class="col-md-4">
+                                            <h5>Octogon</h5>
+                                            <img src="Assets\Pics\Entangled\RollyOctoGuy.gif" class="img-fluid" alt="Ocotgon Idle"
+                                                loading="lazy">
+                                        </div>
+                                        <div class="col-md-4">
+                                            <h5>Square</h5>
+                                            <img src="Assets\Pics\Entangled\Square.gif" class="img-fluid" alt="Square Idle" loading="lazy">
+                                        </div>
+                                        <div class="col-md-4">
+                                            <h5>Parallelogram</h5>
+                                            <img src="Assets\Pics\Entangled\WigglyBoy.gif" class="img-fluid" alt="Parallelogram Idle"
+                                                loading="lazy">
+                                        </div>
+                                    </div>
+                                </div>
+                                <hr>
+                                <!-- section title Audio -->
+                                <div class="row">
+                                    <h3>Audio</h3>
+                                </div>
+                                <div class="row">
+                                    <div class="col-12">
+                                        <audio controls>
+                                            <source src="Assets\Audio Files\Entangled\EDM_love_song_garbage.wav" type="audio/wav">
+                                            Your browser does not support the audio element.
+                                        </audio>
+                                        <h5>Dating Game Song</h5>
+                                    </div>
+                                </div>
+                                <hr>
+                                <!-- section title CODE -->
+                                <div class="row">
+                                    <h3>Code</h3>
+                                </div>
+                                <!-- carousel CODE -->
+                                <div clas="row">
+                                    <div class="col-12">
+                                        <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+                                            <div class="carousel-inner">
+                                                <div class="carousel-item active" data-bs-interval="5000">
+                                                    <img src="Assets\Pics\Entangled\badCode.png" class="d-block w-100"
+                                                        alt="an early iteration of the matching game code">
+                                                </div>
+                                                <div class="carousel-item" data-bs-interval="5000">
+                                                    <img src="Assets\Pics\Entangled\CodeScreenshot1.png" class="d-block w-100"
+                                                        alt="final iteration of the matching game code" loading="lazy">
+                                                    </div>
+                                                <div class="carousel-item" data-bs-interval="5000">
+                                                    <img src="Assets\Pics\Entangled\CodeScreenshot2.png" class="d-block w-100"
+                                                    alt="modular code for comic interactions" loading="lazy">
+                                                </div>
+                                            </div>
+                                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
+                                                data-bs-slide="prev">
+                                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                <span class="visually-hidden">Previous</span>
+                                            </button>
+                                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
+                                                data-bs-slide="next">
+                                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                                <span class="visually-hidden">Next</span>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>  
+                </div>
+                <!-- Wizard AR -->
+                <div class="col-md-4">
+                    <!-- Project Card -->
+                    <div class="project-card" data-project="cardWizard">
+                        <img src="Assets/Pics/AR/AR_LOGO.png" alt="Card Wizard Thumbnail">
+                        <div class="project-info">
+                            <h3>Card Wizard</h3>
+                            <p class="date">Fall 2022</p>
+                            <p class="desc">Mixed reality top-down shooter</p>
+                        </div>
+                    </div>
+                    
+                    <!-- Modal Content -->
+                    <div class="project-modal" id="cardWizard-modal">
+                        <div class="modal-content">
+                            <span class="close">&times;</span>
+                            <div class="container-fluid" id="cardWizard">
+                                <!-- intro -->
+                                <div class="row">
+                                    <div class="col-12">
+                                        <h2>AR Top Down Shooter</h2>
+                                    </div>
+                                </div>                                
+                                <hr>
+                                <!-- Logo -->
+                                <div class="row">
+                                    <div class="col-12">
+                                        <img src="Assets/Pics/AR/AR_LOGO.png" class="curvedImg img-fluid" alt="Card Wizard Logo">
+                                    </div>
+                                </div>                              
+                                <!-- text -->
+                                <div class="row">
+                                    <div class="col-12">
+                                        <p>
+                                            <button class="btn btn-primary" type="button" 
+                                            data-bs-toggle="collapse" data-bs-target="#arText" 
+                                            aria-expanded="false" aria-controls="arText"
+                                            id="myCollapseButton">
+                                            Click here to learn about the AR project
+                                            </button>
+                                        </p>
+                                    </div>
+                                    <div class="collapse" id="arText">
+                                        <div class="card card-body" id="collapseText">
+                                            <h3>Overview:</h3>
+                                            <p>Card Wizard is a mixed reality game that I and two of my classmates developed in Unity during our first semester within the GIMM degree.</p>
+                                            <h3>Goal:</h3>
+                                            <p>The goal of Card Wizard was to create a protoype for a competitive multiplayer game where one individual controls the enemies, and the other individual controls the player and tries to defeat them.</p>
+                                            <h3>Contributions:</h3>
+                                            <h5>Programming</h5>
+                                            <p>I was responsible for building out the projectile mechanics, an audio manager, and made a multitude of bug fixes for this project.
+                                            The most noteworthy of this list for me was how I build the audio manager, which was a modular system that allowed for simple implementation of sound effects though an interface I built.
+                                            I also used some trigonometry to show the player where they were shooting by having a target that would circle around the player based on the position of the mouse on the screen in comparison to the player character.
+                                            </p>
+                                            <h5>Art and Animations</h5>
+                                            <p>I created multiple characters and animations within Aseprite that can be seen below.</p>
+                                            <h5>Audio</h5>
+                                            <p>I created all the sound effects and music that was used in this project within Ableton Live 11</p>
+                                            <h5>UI</h5>
+                                            <p>I also developed a series of UI sprites that we didn't end up implementing in the final project, but would have brought more personality to the game had we had more time.</p>
+                                            <h3>What I enjoyed about the project:</h3>
+                                            <p>The thing I enjoyed most within my time working on this project was probably working on the boss animations.
+                                            Though we had to scrap them for our final timeline, I had a lot of fun and learned a lot about building out bigger animations for a boss character during that process.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- section title GALLERY-->
+                                <div class="row">
+                                    <div class="col-12">
+                                        <h3>Gallery</h3>
+                                    </div>
+                                </div>
+                                <!-- carousel -->
+                                <div class="row">
+                                    <div class="col-12">
+                                        <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+                                            <div class="carousel-inner">
+                                                <div class="carousel-item active" data-bs-interval="5000">
+                                                    <img src="Assets\Pics\AR\AR_Lvl1.png" class="d-block w-100 img-fluid" 
+                                                        alt="A screenshot of level 1">
+                                                </div>
+                                                <div class="carousel-item" data-bs-interval="5000">
+                                                    <img src="Assets\Pics\AR\AR_GameManager.png" class="d-block w-100 img-fluid"
+                                                        alt="Game management code" loading="lazy">
+                                                </div>
+                                                <div class="carousel-item" data-bs-interval="5000">
+                                                    <img src="Assets\Pics\AR\AR_SoundManager.png" class="d-block w-100 img-fluid"
+                                                        alt="Sound management code" loading="lazy">
+                                                </div>
+                                                <div class="carousel-item" data-bs-interval="5000">
+                                                    <img src="Assets\Pics\AR\AR_Code.png" class="d-block w-100 img-fluid" 
+                                                        alt="Circling target code" loading="lazy">
+                                                </div>
+                                                <div class="carousel-item" data-bs-interval="5000">
+                                                    <img src="Assets\Pics\AR\AR_Lvl2.png" class="d-block w-100 img-fluid" 
+                                                        alt="A screenshot of level 2" loading="lazy">
+                                                </div>
+                                            </div>
+                                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
+                                                data-bs-slide="prev">
+                                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                <span class="visually-hidden">Previous</span>
+                                            </button>
+                                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
+                                                data-bs-slide="next">
+                                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                                <span class="visually-hidden">Next</span>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <hr>
+                                <div id="subsecBG">
+                                    <!-- section title ANIMATIONS-->
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <h3>Animations</h3>
+                                        </div>
+                                    </div>
+                                    <!-- rufus subsec-->
+                                    <div class="row" id="subsec">
+                                        <div class="col-12">
+                                            <h5>Rufus, the D20 Turtle</h5>
+                                        </div>
+                                    </div>
+                                    <!-- rufus GIFS -->
+                                    <div class="row">
+                                        <div class="col-md-3">
+                                            <h5>Idle</h5>
+                                            <img src="Assets\Pics\AR\RufusIdle.gif" alt="Rufus Idle" class="img-fluid" loading="lazy">
+                                        </div>
+                                        <div class="col-md-3">
+                                            <h5>Normal Dice Roll</h5>
+                                            <img src="Assets\Pics\AR\RufusDiceRoll.gif" alt="Rufus Roll" class="img-fluid" loading="lazy">
+                                        </div>
+                                        <div class="col-md-3">
+                                            <h5>Nat 20 Roll</h5>
+                                            <img src="Assets\Pics\AR\Rufus20.gif" alt="Rufus Nat 20" class="img-fluid" loading="lazy">
+                                        </div>
+                                        <div class="col-md-3">
+                                            <h5>Nat 1 Roll</h5>
+                                            <img src="Assets\Pics\AR\RufusNatOne.gif" alt="Rufus Nat 1" class="img-fluid" loading="lazy">
+                                        </div>
+                                    </div>
+                                    <!-- stumpy subsec-->
+                                    <div class="row" id="subsec">
+                                        <div class="col-12">
+                                            <h5>Stumpy, the stump</h5>
+                                        </div>
+                                    </div>
+                                    <!-- stumpy GIFS -->
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <h5>Idle</h5>
+                                            <img src="Assets\Pics\AR\Stumpy.gif" alt="Stumpy Idle" class="img-fluid" loading="lazy">
+                                        </div>
+                                    </div>
+                                    <!-- boss subsec-->
+                                    <div class="row" id="subsec">
+                                        <div class="col-12">
+                                            <h5>Final boss</h5>
+                                        </div>
+                                    </div>
+                                    <!--boss GIFS -->
+                                    <div class="row">    
+                                        <div class="col-12">
+                                            <h5>Idle</h5>
+                                            <img src="Assets/Pics/AR/BossIdle.gif" alt="Boss Animation" class="img-fluid" loading="lazy">
+                                        </div>
+                                    </div>
+                                </div>
+                                <hr>
+                                <!-- Audio -->
+                                <div id="audio">
+                                    <!-- section title Audio-->
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <h3>Audio</h3>
+                                        </div>
+                                    </div>
+                                    <!-- sfx row 1-->
+                                    <div class="row">
+                                        <div class="col-lg-6">
+                                            <audio controls>
+                                                <source src="Assets\Audio Files\AR\DashSound.wav" type="audio/wav">
+                                                Your browser does not support the audio element.
+                                            </audio>
+                                            <h5>Dash Sound</h5>
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <audio controls>
+                                                <source src="Assets\Audio Files\AR\EnemyHurtSound.wav" type="audio/wav">
+                                                Your browser does not support the audio element.
+                                            </audio>
+                                            <h5>Enemy Hurt Sound</h5>
+                                        </div>
+                                    </div>
+                                    <!-- sfx row 2 -->
+                                    <div class="row">
+                                        <div class="col-lg-6">
+                                            <audio controls>
+                                                <source src="Assets\Audio Files\AR\ShootSound.wav" type="audio/wav">
+                                                Your browser does not support the audio element.
+                                            </audio>
+                                            <h5>Player Shoot Sound</h5>
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <audio controls>
+                                                <source src="Assets\Audio Files\AR\HurtSound.wav" type="audio/wav">
+                                                Your browser does not support the audio element.
+                                            </audio>
+                                            <h5>Player Hurt Sound</h5>
+                                        </div>
+                                    </div>
+                                    <!-- songs -->
+                                    <div class="row">
+                                        <div class="col-lg-6">
+                                            <audio controls>
+                                                <source src="Assets\Audio Files\AR\BossFight.wav" type="audio/wav">
+                                                Your browser does not support the audio element.
+                                            </audio>
+                                            <h5>Boss Fight Song</h5>
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <audio controls>
+                                                <source src="Assets\Audio Files\AR\ThemeSong.wav" type="audio/wav">
+                                                Your browser does not support the audio element.
+                                            </audio>
+                                            <h5>Theme Song</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                                <hr>
+                                <!-- UI -->
+                                <div id="subsecBG">
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <h3>UI Sprites</h3>
+                                        </div>
+                                    </div>
+                                    <!-- mana subsec-->
+                                    <div class="row" id="subsec">
+                                        <div class="col-12">
+                                            <h5>Mana</h5>
+                                        </div>
+                                    </div>
+                                    <!-- mana pngs -->
+                                    <div class="row">
+                                        <div class="col-md-4">
+                                            <h5>Full</h5>
+                                            <img src="Assets\Pics\AR\Mana1.png" alt="Mana Full" class="img-fluid" loading="lazy">
+                                        </div>
+                                        <div class="col-md-4">
+                                            <h5>Half</h5>
+                                            <img src="Assets\Pics\AR\Mana2.png" alt="Mana Half" class="img-fluid" loading="lazy">
+                                        </div>
+                                        <div class="col-md-4">
+                                            <h5>Empty</h5>
+                                            <img src="Assets\Pics\AR\Mana3.png" alt="Mana Empty" class="img-fluid" loading="lazy">
+                                        </div>
+                                    </div>
+                                    <!-- heart subsec -->
+                                    <div class="row" id="subsec">
+                                        <div class="col-12">
+                                            <h5>Hearts</h5>
+                                        </div>
+                                    </div>
+                                    <!-- Hearts pngs -->
+                                    <div class="row">
+                                        <div class="col-md-4">
+                                            <h5>Full</h5>
+                                            <img src="Assets\Pics\AR\Hearts1.png" alt="Heart Full" class="img-fluid" loading="lazy">
+                                        </div>
+                                        <div class="col-md-4">
+                                            <h5>Half</h5>
+                                            <img src="Assets\Pics\AR\Hearts2.png" alt="Heart Half" class="img-fluid" loading="lazy">
+                                        </div>
+                                        <div class="col-md-4">
+                                            <h5>Empty</h5>
+                                            <img src="Assets\Pics\AR\Hearts3.png" alt="Heart Empty" class="img-fluid" loading="lazy">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>  
+                </div>
+                <!-- The Cave -->
+                <div class="col-md-4">
+                    <!-- Project Card -->
+                    <div class="project-card" data-project="theCave">
+                        <img src="Assets/Pics/TheCave/TheCaveLogo.png" alt="The Cave Thumbnail">
+                        <!-- Thumbnail Info -->
+                        <div class="project-info">
+                            <h3>The Cave</h3>
+                            <p class="date">Fall 2022</p>
+                            <p class="desc">2D platformer (first GIMM project)</p>
+                        </div>
+                    </div>                    
+                    <!-- Modal Content -->
+                    <div class="project-modal" id="theCave-modal">
+                        <div class="modal-content">
+                            <span class="close">&times;</span>
+                            <div id="container-fluid" id="theCave">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <h2>The Cave</h2>
+                                        <h3>(2D Platformer)</h3>
+                                    </div>
+                                </div>
+                                <hr>
+                                <!-- logo -->
+                                <div class="row">
+                                    <div class="col-12">
+                                        <img src="Assets\Pics\TheCave\TheCaveLogo.png" class="curvedImg img-fluid" alt="The Cave Logo">
+                                    </div>
+                                </div>
+                                <!-- Text -->
+                                <div class="row">
+                                    <div class="col-12">
+                                        <p>
+                                            <button class="btn btn-primary" type="button" 
+                                            data-bs-toggle="collapse" data-bs-target="#caveText" 
+                                            aria-expanded="false" aria-controls="caveText"
+                                            id="myCollapseButton">
+                                            Click here to learn about The Cave
+                                            </button>
+                                        </p>
+                                    </div>
+                                    <div class="collapse" id="caveText">
+                                        <div class="card card-body" id="collapseText">
+                                            <h3>Overview:</h3>
+                                            <h3>Goal:</h3>
+                                            <h3>Contributions:</h3>
+                                            <h3>What I enjoyed about the project:</h3>
+                                        </div>
+                                    </div>
+                                    <hr>
+                                    <!-- section title game trailer -->
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <h3>Game Trailer</h3>
+                                        </div>
+                                    </div>
+                                    <!-- trailer video -->
+                                    <div class="row">
+                                        <div class="col-12" id="caveGameTrailer">
+                                            <!-- Trailer Video -->
+                                            <video width="100%" height="auto" controls id="video">
+                                                <source src="Assets\Video\GIMM270_GameTrailer_GOlson_10-10-23.mp4" type="video/mp4">
+                                            </video>
+                                        </div>
+                                    </div>
+                                    <!-- section title devlog -->
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <h3>Dev Log</h3>
+                                        </div>
+                                    </div>
+                                    <!-- devlog -->
+                                    <div class="row">
+                                        <div class="col-12" id="caveGameDevLog video">
+                                            <div class="ratio ratio-16x9">
+                                                <iframe width="560" height="315" src="https://www.youtube.com/embed/oY0PAvClYtw?si=X8Aw2GpomB_LqTKD"
+                                                    title="YouTube video player" frameborder="0"
+                                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                                    allowfullscreen>
+                                                </iframe>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <hr>
+                                    <div id="animBG">
+                                        <!-- section title animations -->
+                                        <div class="row">
+                                            <div class="col-12">
+                                                <h3>Animations</h3>
+                                            </div>
+                                        </div>
+                                        <!-- cosmo/shadow subsec-->
+                                        <div class="row" id="subsec">
+                                            <div class="col-12">
+                                                <h5>Cosmo and their Shadow</h5>
+                                            </div>
+                                        </div>
+                                        <!-- cosmo/shadow gifs -->
+                                        <div class="row">
+                                            <!-- gifs -->
+                                            <div class="col-3">
+                                                <h5>Cosmo Idle</h5>
+                                                <img src="Assets\Pics\TheCave\Cosmo_Idle.gif" class="img-fluid"
+                                                    alt="Cosmo's Idle Animation" loading="lazy">
+                                            </div>
+                                            <div class="col-3">
+                                                <h5>Shadow Idle</h5>
+                                                <img src="Assets\Pics\TheCave\Shadow_Idle.gif" class="img-fluid"
+                                                    alt="Shadow Idle Animation" loading="lazy">
+                                            </div>
+                                            <div class="col-3">
+                                                <h5>Cosmo Walk</h5>
+                                                <img src="Assets\Pics\TheCave\Cosmo_Walk.gif" class="img-fluid"
+                                                    alt="Cosmo's Walking Animation" loading="lazy">
+                                            </div>
+                                            <div class="col-3">
+                                                <h5>Shadow Walk</h5>
+                                                <img src="Assets\Pics\TheCave\Shadow_Walk.gif" class="img-fluid"
+                                                    alt="Shadow Walking Animation" loading="lazy">
+                                            </div>
+                                        </div>
+                                        <!-- collectable subsec-->
+                                        <div class="row" id="subsec">
+                                            <div class="col-12">
+                                                <h5>Collectable</h5>
+                                            </div>
+                                        </div>
+                                        <!-- collectable gifs -->
+                                        <div class="row">
+                                            <div class="col-4"></div>
+                                            <div class="col-4">
+                                                <h5>Collectable bounce</h5>
+                                                <img src="Assets\Pics\TheCave\DiamondSprite.gif" class="img-fluid"
+                                                    alt="Diamond Animation" loading="lazy">
+                                            </div>
+                                            <div class="col-4"></div>
+                                        </div>
+                                    </div>
+                                    <hr>
+                                    <!-- section title Gallery-->
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <h3>Gallery</h3>
+                                        </div>
+                                    </div>
+                                    <!-- carousel -->
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <!-- autoscrolling image gallery of screenshots from Bootstrap-->
+                                            <!-- a second interval is 1000 in the data-bs-interval variable -->
+                                            <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+                                                <div class="carousel-inner">
+                                                    <div class="carousel-item active" data-bs-interval="15000">
+                                                        <img src="Assets\Pics\TheCave\theCaveOpenScene.gif" class="d-block w-100 img-fluid"
+                                                            alt="The opening GIF of The Cave" loading="lazy">
+                                                    </div>
+                                                    <div class="carousel-item" data-bs-interval="5000">
+                                                        <img src="Assets\Pics\TheCave\TheCaveCollisionCode.png" class="d-block w-100 img-fluid"
+                                                            alt="The Cave collision code screenshot" loading="lazy">
+                                                    </div>
+                                                    <div class="carousel-item" data-bs-interval="5000">
+                                                        <img src="Assets\Pics\TheCave\TheCaveDirectionChangeCode.png" class="d-block w-100 img-fluid"
+                                                            alt="The Cave direction change code screenshot" loading="lazy">
+                                                    </div>
+                                                    <div class="carousel-item" data-bs-interval="5000">
+                                                        <img src="Assets\Pics\TheCave\TheCavePhysicsCode.png" class="d-block w-100 img-fluid"
+                                                            alt="The Cave physics Code screenshot" loading="lazy">
+                                                    </div>
+                                                    <div class="carousel-item" data-bs-interval="15000">
+                                                        <img src="Assets\Pics\TheCave\theCaveOutro.gif" class="d-block w-100 img-fluid"
+                                                            alt="The closing GIF of The Cave" loading="lazy">
+                                                    </div>
+                                                </div>
+                                                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
+                                                    data-bs-slide="prev">
+                                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                    <span class="visually-hidden">Previous</span>
+                                                </button>
+                                                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
+                                                    data-bs-slide="next">
+                                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                                    <span class="visually-hidden">Next</span>
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- diamond gifs -->
+                                    <div class="row">
+                                        <!-- more gifs -->
+                                        <div class="col-4">
+                                            <img src="Assets\Pics\TheCave\DiamondSprite.gif" class="img-fluid"
+                                                alt="Diamond Animation" loading="lazy">
+                                        </div>
+                                        <div class="col-4">
+                                            <img src="Assets\Pics\TheCave\DiamondSprite.gif" class="img-fluid"
+                                                alt="Diamond Animation" loading="lazy">
+                                        </div>
+                                        <div class="col-4">
+                                            <img src="Assets\Pics\TheCave\DiamondSprite.gif" class="img-fluid"
+                                                alt="Diamond Animation" loading="lazy">
+                                        </div>
+                                    </div>
+                                    <hr>
+                                </div>
+                            </div>
+                        </div>  
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+<footer>
+    <div id="footer">
+        <h5>Contact me or check out my work</h5>
+        <div id="socials">
+            <a href="mailto:alinthedreamer@gmail.com">
+                <img src="Assets/Pics/Icons/gmail.svg" alt="Gmail">
+            </a>
+            <a href="https://www.linkedin.com/in/grant-olson-ba65b3261/" target="_blank" rel="noopener noreferrer">
+            <img src="Assets/Pics/Icons/linkedin.svg" alt="LinkedIn">
+            </a>
+            <a href="https://github.com/alinthedeveloper" target="_blank" rel="noopener noreferrer">
+                <img src="Assets/Pics/Icons/github.svg" alt="Github">
+            </a>
+            <a href="https://open.spotify.com/artist/3vNC0mEST3iePFCveDjbPI?si=-13jl6-JQXCbWCz4ai6xjA" target="_blank" rel="noopener noreferrer">
+            <img src="Assets/Pics/Icons/spotify.svg" alt="Spotify">
+            </a>
+            <a href="https://music.apple.com/us/artist/alin/1548149521" target="_blank" rel="noopener noreferrer">
+            <img src="Assets/Pics/Icons/applemusic.svg" alt="Apple Music">
+            </a>
+            <a href="https://www.youtube.com/@Alinthedreamer" target="_blank" rel="noopener noreferrer">
+            <img src="Assets/Pics/Icons/youtube.svg" alt="Youtube">
+            </a>
+        </div>
+    </div>
+</footer>
+
+<!-- Scripts -->
+<script src="Assets/Js/projects.js"></script>
+
+</html>

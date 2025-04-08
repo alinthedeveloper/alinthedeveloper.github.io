@@ -5,32 +5,26 @@
 <head>
     <meta charset="utf-8">
     <meta name='viewport' content='width=device-width, initial-scale=1.0, shrink-to-fit=no'>
-    <title>Alin's Portfolio</title>
+    
     <!-- Favicon -->
-    <link rel="icon" type="image/png" rel="noopener" target="_blank" href="Assets/Pics/Live2DreamFavicon.png">
+    <link rel="icon" type="image/png" rel="noopener" target="_blank" href="Assets/Pics/Misc/Live2DreamFavicon.png">
+    
     <!-- Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-        crossorigin="anonymous"></script>
-    <!-- CSS link -->
-    <link href="css/stylesheet.css" rel="stylesheet">
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+
+    <!-- Stylesheets -->
+    <link href="css/base.css" rel="stylesheet">
+    <link href="css/footer.css" rel="stylesheet">
+    <link href="css/home.css" rel="stylesheet">
+
+    <title>Grant's Portfolio</title>
 </head>
 
 <body>
-
-    <hr>
-    <div class="row">
-        <div class="col-2">
-        </div>
-        <div class="col-8" id="navVertLeft navVertRight">
-            <h5>Projects</h5>
-        </div>
-        <div class="col-2" id="navVertRight">
-            <h5>Music</h5>
-        </div>
-    </div>
     <nav class="navbar navbar-expand-md navbar-light sticky-top" id="navBG">
         <div class="container-fluid">
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -43,95 +37,78 @@
                         <a class="nav-link active" href="index.html">Home</a>
                     </li>
                     <li class="nav-item col">
-                        <a class="nav-link" href="caveProject.html">The Cave</a>
+                        <a class="nav-link" href="projects.html">Projects</a>
                     </li>
                     <li class="nav-item col">
-                        <a class="nav-link" href="tx2dayProject.html">Tx2Day</a>
+                        <a class="nav-link" href="skills.html">Skills</a>
                     </li>
                     <li class="nav-item col">
-                        <a class="nav-link" href="arProject.html">Wizard AR</a>
+                        <a class="nav-link" href="music.html">Music</a>
                     </li>
                     <li class="nav-item col">
-                        <a class="nav-link" href="entangledProject.html">Entangled</a>
+                        <a class="nav-link" href="resume.html">Resume</a>
                     </li>
                     <li class="nav-item col">
-                        <a class="nav-link" href="musicProjects.html">My Music</a>
+                        <a class="nav-link" href="about.html">About</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
 
-
-    <hr>
-
     <div id="contentDiv">
         <div class="container-fluid" id="titles">
-            <div class="row">
-                <div class="col-6">
-                    <h1>Alin Olson</h1>
+            <div id ="background">
+                <div class="row">
+                    <div class="col-12">
+                        <h1>Grant "Alin" Olson</h1>
+                    </div>
                 </div>
-                <div class="col-6">
-                    <h2>multimedia developer</h2>
-                </div>
-            </div>
-        </div>
-
-        <hr>
-
-        <div class="container-fluid" id="intro">
-            <div class="row">
-                <div class="col-md-6">
-                    <h5>Alin (they/them) approaches each endeavor with unwavering
-                        dedication and conviction. Since 2018, their creative journey
-                        has encompassed a diverse array of disciplines, including music composition,
-                        logo design, digital artistry, and honing coding proficiency.
-                        Throughout this journey, Alin consistently strives to produce distinctive
-                        and compelling work, contributing their unique perspective to the world of
-                        art and innovation.
-                        </h3>
-                        <hr>
-                        <h5>Alin serves as the Financial Officer of Boise State University's
-                            Game Development Club, holds the distinction of being a Verified Artist on Spotify,
-                            and actively participates as a Peer Mentor within the GIMM Major at Boise State University,
-                            all while maintaining their status as a full-time student in the degree.
-                            </h3>
-                </div>
-                <div class="col-md-6">
-                    <img class="curvedImg img-fluid" src="Assets\Pics\cover_photo.png" alt="A headshot of me"
-                        loading="eager">
+                <div class="row">
+                    <div class="col-12" id="GlitchyText">
+                        <div class="text-holder">
+                            <h3 id="glitchyTitle" data-value="Titles">Multimedia Developer</h3>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-        <!-- <div class="container-fluid" id="contactMe">
+        <div class="container-fluid" id="projectButton">
             <div class="row">
                 <div class="col-12">
-                    <h3>Contact Me</h3>
+                    <a href="projects.html" class="btn btn-primary" id="projectButton">View My Work</a>
                 </div>
             </div>
-            <form action="https://formspree.io/f/xzbnggae" method="POST">
-                <div class="row">
-                    <div class="col-md-6">
-                        <label for="name">Your Name:</label><br>
-                        <input type="text" id="name" name="name" required><br>
-                    </div>
-                    <div class="col-md-6">
-                        <label for="email">Your Email:</label><br>
-                        <input type="email" id="email" name="_replyto" required><br>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-12">
-                        <label for="message">Your Message:</label><br>
-                        <textarea id="message" name="message" required></textarea>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-12">
-                        <button type="submit">Send</button>
-                    </div>
-            </form>
-        </div> -->
+    </div>
 </body>
+
+<footer>
+    <div id="footer">
+        <h5>Contact me or check out my work</h5>
+        <div id="socials">
+            <a href="mailto:alinthedreamer@gmail.com">
+                <img src="Assets/Pics/Icons/gmail.svg" alt="Gmail">
+            </a>
+            <a href="https://www.linkedin.com/in/grant-olson-ba65b3261/" target="_blank" rel="noopener noreferrer">
+            <img src="Assets/Pics/Icons/linkedin.svg" alt="LinkedIn">
+            </a>
+            <a href="https://github.com/alinthedeveloper" target="_blank" rel="noopener noreferrer">
+                <img src="Assets/Pics/Icons/github.svg" alt="Github">
+            </a>
+            <a href="https://open.spotify.com/artist/3vNC0mEST3iePFCveDjbPI?si=-13jl6-JQXCbWCz4ai6xjA" target="_blank" rel="noopener noreferrer">
+            <img src="Assets/Pics/Icons/spotify.svg" alt="Spotify">
+            </a>
+            <a href="https://music.apple.com/us/artist/alin/1548149521" target="_blank" rel="noopener noreferrer">
+            <img src="Assets/Pics/Icons/applemusic.svg" alt="Apple Music">
+            </a>
+            <a href="https://www.youtube.com/@Alinthedreamer" target="_blank" rel="noopener noreferrer">
+            <img src="Assets/Pics/Icons/youtube.svg" alt="Youtube">
+            </a>
+        </div>
+    </div>
+</footer>  
+
+<!-- Scripts -->
+<script src="Assets/Js/Animations.js"></script>
 
 </html>

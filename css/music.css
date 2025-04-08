@@ -1,0 +1,73 @@
+#gradientStart {
+    background: linear-gradient(#202531 75%, #617dbc 100%);
+    padding-top: 10%;
+}
+#dreamin {
+    background: linear-gradient(#617dbc 25%, #ca92ab 100%);
+    text-align: left;
+}
+#gradient3 {
+    background: linear-gradient(#ca92ab 25%, #6cd6d4 100%);
+}
+#fastCar {
+    background: linear-gradient(#6cd6d4 75%, #e5e5e5 100%);
+    text-align: left;
+    color: #000000;
+}
+#gradient4 {
+    background: linear-gradient(#e5e5e5 25%, #221c3e 100%);
+}
+#metaphorfisis {
+    background: linear-gradient(#221c3e 25%, #763cac 50%);
+    text-align: left;
+}
+#gradient5 {
+    background: linear-gradient(#763cac 25%, #80343e 100%);
+}
+#weAreStardust {
+    background: linear-gradient(#80343e 25%, #b854e5 100%);
+    text-align: left;
+}
+#gradient6 {
+    background: linear-gradient(#b854e5 25%, #1c5a8d 100%);
+}
+#lifeIsGood {
+    background: linear-gradient(#1c5a8d 25%, #144c59 100%);
+    text-align: left;
+}
+#gradient7 {
+    background: linear-gradient(#144c59 25%, #926aff 100%);
+}
+#distraction {
+    background: linear-gradient(#926aff 25%, #81deff 100%);
+    text-align: left;
+    color: #000000;
+}
+#gradient8 {
+    background: linear-gradient(#81deff 25%, #00c1c3 100%);
+}
+#rainstorm {
+    background: linear-gradient(#00c1c3 25%, #1ea88f 100%);
+    text-align: left;
+    color: #000000;
+}
+#gradient9 {
+    background: linear-gradient(#1ea88f 25%, #ffe16c 100%);
+}
+#postedPretty {
+    background-color: #ffe16c;
+    text-align: left;
+    color: #000000;
+}
+#gradient10 {
+    background: linear-gradient(#ffe16c 25%, #202531 100%);
+}
+
+#music {
+    padding: 5%;
+}
+
+.poem {
+    text-align: left;
+    padding: 5%;
+}
