@@ -18,6 +18,10 @@
     padding-top: 5%;
 }
 
+#projectButton {
+    margin-top: 3vw;
+}
+
 body {
     background-image: url("../Assets/Pics/Misc/HomeBG.png");
     background-size: cover;
