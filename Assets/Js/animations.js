@@ -51,4 +51,38 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 });
 
+//vignette effect
+  window.addEventListener('load', () => {
+    const mask = document.getElementById('vignetteMask');
+    const cards = document.getElementById('spotlightProjects');
+
+    setTimeout(() => {
+      mask.style.opacity = 1;
+    }, 800); // start dimming
+
+    setTimeout(() => {
+      cards.style.opacity = 1;
+      cards.style.transform = 'translateY(0)';
+    }, 2500); // reveal cards after light fully fades in
+  });
+
+  // Add event listeners to the spotlight section and mask
+  // to follow the mouse cursor
+  const spotlightSection = document.getElementById('vignetteSpotlight');
+  const spotlightMask = document.getElementById('vignetteMask');
+
+  spotlightSection.addEventListener('mousemove', (e) => {
+    const rect = spotlightSection.getBoundingClientRect();
+    const x = e.clientX - rect.left;
+    const y = e.clientY - rect.top;
+
+    spotlightMask.style.left = `${x}px`;
+    spotlightMask.style.top = `${y}px`;
+  });
+
+  spotlightSection.addEventListener('mouseleave', () => {
+    spotlightMask.style.left = '50%';
+    spotlightMask.style.top = '50%';
+  });
+
 

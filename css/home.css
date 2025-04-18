@@ -1,74 +1,146 @@
 #background {
-    background-color: rgba(0, 0, 0, 0.5);
-    border-radius: 15px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.8);
-    padding: 1vw;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 15px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.8);
+  padding: 1vw;
 }
 
 #GlitchyText {
-    min-width: 35ch;
-    display: inline-block;
+  min-width: 35ch;
+  display: inline-block;
 }
 
 #glitchyTitle {
-    font-family: 'Courier New', monospace;
+  font-family: "Courier New", monospace;
 }
 
 #titles {
-    padding-top: 5%;
+  padding-top: 5%;
 }
 
 #projectButton {
-    margin-top: 3vw;
+  margin-top: 3vw;
+}
+
+.vignette-spotlight {
+  position: relative;
+  height: auto;
+  padding: 8rem 0;
+  overflow: hidden;
+}
+
+.vignette-spotlight::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.9);
+    opacity: 0;
+    animation: fadeInDark 2s ease forwards;
+    z-index: 0;
+  }
+
+  @keyframes fadeInDark {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+
+  .vignette-mask {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 600px;
+    height: 600px;
+    background: radial-gradient(
+      circle,
+      rgba(251, 255, 221, 1) 0%,     /* brighter center */
+      rgba(0, 0, 0, 0) 60%      /* transparent edges */
+    );
+    border-radius: 50%;
+    opacity: 0;
+    transition: opacity 2.5s ease-in, left 0.3s ease, top 0.3s ease;
+    pointer-events: none;
+    z-index: 1;
+  }
+
+  .project-spotlight {
+    position: relative;
+    z-index: 2;
+    text-align: center;
+  }
+  
+  .spotlight-title {
+    font-size: 2.5rem;
+    color: white;
+    margin-bottom: 2rem;
+    z-index: 2;
+    position: relative;
+  }
+  
+
+/* Cards container */
+.spotlight-projects {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  padding-top: 15vh;
+  opacity: 0;
+  transform: translateY(40px);
+  transition: all 1.5s ease;
+}
+
+.project-card {
+  background: #1e1e1e;
+  color: #fff;
+  padding: 1rem;
+  border-radius: 12px;
+  width: 250px;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.05);
 }
 
 body {
-    background-image: url("../Assets/Pics/Misc/HomeBG.png");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    transition: background-position 0.1s ease;
+  background-image: url("../Assets/Pics/Misc/HomeBG.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  transition: background-position 0.1s ease;
 }
 
 /* Tablets, iPads (portrait and landscape) ----------- */
-@media only screen 
-and (min-device-width : 768px) 
-and (max-device-width : 1024px) {
-/* Styles */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  /* Styles */
 }
 
 /* Tablets, iPads (landscape) ----------- */
-@media only screen 
-and (min-device-width : 768px) 
-and (max-device-width : 1024px) 
-and (orientation : landscape) {
-/* Styles */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+  /* Styles */
 }
 
 /* Tablets, iPads (portrait) ----------- */
-@media only screen 
-and (min-device-width : 768px) 
-and (max-device-width : 1024px) 
-and (orientation : portrait) {
-/* Styles */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+  /* Styles */
 }
 
 /* Desktops and laptops ----------- */
-@media only screen 
-and (min-width : 1224px) {
-/* Styles */
+@media only screen and (min-width: 1224px) {
+  /* Styles */
 }
 
 /* Large screens ----------- */
-@media only screen 
-and (min-width : 1824px) {
-/* Styles */
+@media only screen and (min-width: 1824px) {
+  /* Styles */
 }
 
 /* iPhone 4 ----------- */
-@media
-only screen and (-webkit-min-device-pixel-ratio : 1.5),
-only screen and (min-device-pixel-ratio : 1.5) {
-/* Styles */
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (min-device-pixel-ratio: 1.5) {
+  /* Styles */
 }
